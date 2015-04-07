@@ -12,7 +12,8 @@ class Goals_TableViewController: UITableViewController {
         super.viewDidLoad()
         var goals = Goals();
         add_stats();
-
+        self.tableView.contentInset = UIEdgeInsetsMake(20.0, 0.0, 0.0, 0.0);
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
