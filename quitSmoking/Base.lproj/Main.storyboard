@@ -17,29 +17,77 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="i" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efh-5O-a61">
-                                <rect key="frame" x="294" y="135" width="6" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 days 0 hours 0 minutes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efh-5O-a61">
+                                <rect key="frame" x="163" y="135" width="274" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have quit smoking for:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3B7-ra-fTA">
+                                <rect key="frame" x="198" y="94" width="204" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have saved:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AA0-1o-SfS">
+                                <rect key="frame" x="237" y="195" width="126" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00$" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ePI-nr-b9A">
+                                <rect key="frame" x="269" y="236" width="62" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uv5-Cl-kBK">
+                                <rect key="frame" x="263" y="306" width="74" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="START">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startButtonPressed:" destination="KmA-Zv-zTq" eventType="touchUpInside" id="Fw8-Jz-VKY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lth-GG-Vit">
+                                <rect key="frame" x="280" y="368" width="40" height="30"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetTimer:" destination="KmA-Zv-zTq" eventType="touchUpInside" id="EhW-VW-zlD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.79607843140000001" green="0.59607843140000005" blue="0.82745098039999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="efh-5O-a61" firstAttribute="top" secondItem="PrW-Lr-EhT" secondAttribute="bottom" constant="115" id="383-Oz-gfe"/>
+                            <constraint firstItem="efh-5O-a61" firstAttribute="top" secondItem="3B7-ra-fTA" secondAttribute="bottom" constant="20" id="CrC-4f-kBm"/>
+                            <constraint firstItem="ePI-nr-b9A" firstAttribute="top" secondItem="AA0-1o-SfS" secondAttribute="bottom" constant="20" id="Hxv-di-JnY"/>
                             <constraint firstAttribute="centerX" secondItem="efh-5O-a61" secondAttribute="centerX" id="Ixz-rx-uQG"/>
+                            <constraint firstItem="Uv5-Cl-kBK" firstAttribute="top" secondItem="ePI-nr-b9A" secondAttribute="bottom" constant="40" id="SZQ-Ww-qtv"/>
+                            <constraint firstAttribute="centerX" secondItem="Uv5-Cl-kBK" secondAttribute="centerX" id="UcU-dk-5sB"/>
+                            <constraint firstItem="AA0-1o-SfS" firstAttribute="top" secondItem="efh-5O-a61" secondAttribute="bottom" constant="30" id="Vbr-SU-Mlo"/>
+                            <constraint firstItem="3B7-ra-fTA" firstAttribute="centerX" secondItem="efh-5O-a61" secondAttribute="centerX" id="bg0-ZO-TKF"/>
+                            <constraint firstAttribute="centerX" secondItem="Lth-GG-Vit" secondAttribute="centerX" id="fF3-0x-ZkY"/>
+                            <constraint firstAttribute="centerX" secondItem="AA0-1o-SfS" secondAttribute="centerX" id="ric-Jw-nkZ"/>
+                            <constraint firstAttribute="centerX" secondItem="ePI-nr-b9A" secondAttribute="centerX" id="wRq-D3-qCs"/>
+                            <constraint firstItem="Lth-GG-Vit" firstAttribute="top" secondItem="Uv5-Cl-kBK" secondAttribute="bottom" constant="20" id="zKf-v7-o1k"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="clock_44.png" id="viP-xd-M8K">
                         <inset key="imageInsets" minX="0.0" minY="4" maxX="0.0" maxY="-4"/>
                     </tabBarItem>
                     <connections>
+                        <outlet property="moneyLabel" destination="ePI-nr-b9A" id="T2M-A9-GvH"/>
                         <outlet property="timerLabel" destination="efh-5O-a61" id="1Qn-uR-iUj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GdA-be-gYz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1100" y="1016"/>
+            <point key="canvasLocation" x="1083" y="972"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wc5-FX-kqZ">
