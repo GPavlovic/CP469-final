@@ -11,9 +11,11 @@ import UIKit
 class Timer_ViewController: UIViewController {
     
     var quitTime : NSDate = NSDate()
-
+    @IBOutlet var timerLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        updateTimer()
 
         // Do any additional setup after loading the view.
     }
@@ -24,11 +26,22 @@ class Timer_ViewController: UIViewController {
     }
     
     func updateTimer() {
-        var currentTime = NSDate.timeIntervalSinceDate(quitTime)
+        var currentTime = NSDate()
+        let calendar = NSCalendar.currentCalendar()
+        let unit:NSCalendarUnit = NSCalendarUnit.CalendarUnitDay
+        let comp = calendar.components(unit, fromDate: quitTime, toDate: currentTime, options: nil)
+        
+        timerLabel.text = String(comp.day)
+    }
+    
+    func resetTimer() {
+        
     }
     
     func setQuitTime() {
+        var currentTime = NSDate.timeIntervalSinceDate(quitTime)
         
+        // Archive the currentTime as the quitTime
     }
     
 
