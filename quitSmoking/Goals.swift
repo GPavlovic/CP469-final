@@ -45,11 +45,11 @@ struct Goals{
         let new_stat = Stat(title:"\(t)", percent:p, image:"\(i)");
         
         if(s == 0){
-            Goals.completed_goals.append(new_stat)
+            Goals.current_goals.append(new_stat)
             
         }
         if(s == 1){
-            Goals.current_goals.append(new_stat)
+            Goals.completed_goals.append(new_stat)
         }
         if(s == 2){
             Goals.hidden_goals.append(new_stat)
@@ -63,10 +63,10 @@ struct Goals{
     static func getGoal(s:Int,r: Int)->Stat{
         
         if(s == 0){
-            return Goals.completed_goals[r]
+            return Goals.current_goals[r]
         }
         else if(s == 1){
-            return Goals.current_goals[r]
+            return Goals.completed_goals[r]
         }
         else{
             return Goals.hidden_goals[r]

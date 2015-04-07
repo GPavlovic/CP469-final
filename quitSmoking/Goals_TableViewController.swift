@@ -12,6 +12,8 @@ class Goals_TableViewController: UITableViewController {
         super.viewDidLoad()
         var goals = Goals();
         add_stats();
+        //self.tableView.contentInset = UIEdgeInsetsMake(20.0, 0.0, 0.0, 0.0);
+        self.tableView.contentInset = UIEdgeInsetsMake(20.0, 0.0, 0.0, 0.0);
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -22,19 +24,18 @@ class Goals_TableViewController: UITableViewController {
     
     func add_stats(){
         
-        Goals.newGoal("Sense of smell", p: 100, s: 0)
-        Goals.newGoal("Sense of taste", p: 100, s: 0)
-        Goals.newGoal("Shortness of breath", p: 100, s: 0)
-        Goals.newGoal("Another Thing", p: 100, s: 0)
+        Goals.newGoal("Sense of smell", p: 100, s: 1)
+        Goals.newGoal("Sense of taste", p: 100, s: 1)
+        Goals.newGoal("Shortness of breath", p: 100, s: 1)
+        Goals.newGoal("Another Thing", p: 100, s: 1)
         
-        Goals.newGoal("Lung capacity", p: 96, s: 1)
-        Goals.newGoal("Heart Attack", p: 72, s: 1)
-        Goals.newGoal("health", p: 70, s: 1)
-        Goals.newGoal("more things", p: 39, s: 1)
-        Goals.newGoal("here", p: 3, s: 1)
-        
-        Goals.newGoal("cancer stuff", p: 2, s: 2)
-        Goals.newGoal("money stuff", p: 7, s: 2)
+        Goals.newGoal("Lung capacity", p: 96, s: 0)
+        Goals.newGoal("Heart Attack", p: 72, s: 0)
+        Goals.newGoal("health", p: 70, s: 0)
+        Goals.newGoal("more things", p: 39, s: 0)
+        Goals.newGoal("here", p: 3, s: 0)
+        Goals.newGoal("cancer stuff", p: 2, s: 0)
+        Goals.newGoal("money stuff", p: 7, s: 0)
         
         
         
@@ -50,7 +51,7 @@ class Goals_TableViewController: UITableViewController {
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Potentially incomplete method implementation.
         // Return the number of sections.
-        return 3
+        return 2
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -86,15 +87,15 @@ class Goals_TableViewController: UITableViewController {
         
         let cell = self.tableView.dequeueReusableCellWithIdentifier("GoalHeader") as UITableViewCell
         
+        
         if(section == 0){
-            cell.textLabel?.text = "Completed Goals"
-        }
-        if(section == 1){
             cell.textLabel?.text = "Current Goals"
         }
-        if(section == 2){
-            cell.textLabel?.text = "Hidden Goals"
+        
+        if(section == 1){
+            cell.textLabel?.text = "Completed Goals"
         }
+
         
         return cell
         
@@ -107,7 +108,16 @@ class Goals_TableViewController: UITableViewController {
         return 25
         
     }
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        //CODE TO BE RUN ON CELL TOUCH
+        
+        println("Hello")
+        println(indexPath.section)
+        println(indexPath.row)
+    }
 
+    
     
 
     /*

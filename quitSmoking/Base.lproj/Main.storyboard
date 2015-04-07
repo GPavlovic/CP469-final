@@ -16,7 +16,7 @@
                     <view key="view" contentMode="scaleToFill" id="5fM-K7-i17">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.69813368060000003" green="0.0" blue="0.02805368452" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.96008917299999996" green="0.70908104660000004" blue="0.5167575297" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="clock_44.png" id="viP-xd-M8K">
                         <inset key="imageInsets" minX="0.0" minY="4" maxX="0.0" maxY="-4"/>
@@ -37,7 +37,7 @@
                     <view key="view" contentMode="scaleToFill" id="udO-iT-e0R">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.69813368060000003" green="0.0" blue="0.02805368452" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.96008917299999996" green="0.70908104660000004" blue="0.5167575297" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="scroll_44.png" id="7bU-OS-FaB">
                         <inset key="imageInsets" minX="-2" minY="2" maxX="-7" maxY="-8"/>
@@ -54,17 +54,17 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="44G-rk-99P">
                         <rect key="frame" x="0.0" y="64" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.69813368060000003" green="0.0" blue="0.02805368452" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.96008917299999996" green="0.70908104660000004" blue="0.5167575297" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="separatorColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
-                        <color key="sectionIndexBackgroundColor" red="0.69813368060000003" green="0.0" blue="0.02805368452" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.96008917297979801" green="0.70908104662245197" blue="0.5167575297076521" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="reuseIdentifier" id="JtE-cC-6G9">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JtE-cC-6G9" id="CEF-6f-5KI">
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.69813368060000003" green="0.0" blue="0.02805368452" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.96008917299999996" green="0.70908104660000004" blue="0.5167575297" alpha="1" colorSpace="calibratedRGB"/>
                             </tableViewCell>
                             <tableViewCell alpha="0.74999999999999978" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GoalHeader" id="ZsN-cK-Hka">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
