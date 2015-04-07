@@ -13,6 +13,9 @@ struct Goals{
     static var current_goals = [Stat]()
     static var hidden_goals = [Stat]()
     static var current:Int = 0
+    static var imageLinks = ["Progress_0_2.png", "Progress_5.png","Progress_10.png", "Progress_15.png",
+    "Progress_20.png","Progress_25.png", "Progress_30.png","Progress_35.png","Progress_40.png", "Progress_45.png","Progress_50.png","Progress_55.png","Progress_60.png","Progress_65.png", "Progress_70.png", "Progress_75.png", "Progress_80.png","Progress_85.png", "Progress_90.png",
+    "Progress_95.png","Progress_100.png"]
     
     
     //init function
@@ -28,10 +31,17 @@ struct Goals{
         return Stat[current]
     }*/
     
-    
-    
-    static func newGoal(t:String, p:Int, i:String, s: Int){
 
+    
+    
+    static func newGoal(t:String, p:Int, s: Int){
+        
+        var p_round = p/5;
+        println("\(p) turns into \(p_round)");
+        
+        var i = imageLinks[p_round]
+        
+        
         let new_stat = Stat(title:"\(t)", percent:p, image:"\(i)");
         
         if(s == 0){
@@ -71,5 +81,6 @@ struct Goals{
         
         
     }
+    
 
 }

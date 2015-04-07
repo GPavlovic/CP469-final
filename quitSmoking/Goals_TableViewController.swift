@@ -22,19 +22,19 @@ class Goals_TableViewController: UITableViewController {
     
     func add_stats(){
         
-        Goals.newGoal("Sense of smell", p: 100, i: "Progress_0_2.png", s: 0)
-        Goals.newGoal("Sense of taste", p: 100, i: "Progress_0_2.png", s: 0)
-        Goals.newGoal("Shortness of breath", p: 100, i: "Progress_0_2.png", s: 0)
-        Goals.newGoal("Another Thing", p: 100, i: "Progress_0_2.png", s: 0)
+        Goals.newGoal("Sense of smell", p: 100, s: 0)
+        Goals.newGoal("Sense of taste", p: 100, s: 0)
+        Goals.newGoal("Shortness of breath", p: 100, s: 0)
+        Goals.newGoal("Another Thing", p: 100, s: 0)
         
-        Goals.newGoal("Lung capacity", p: 96, i: "Progress_0_2.png", s: 1)
-        Goals.newGoal("Heart Attack", p: 72, i: "Progress_0_2.png", s: 1)
-        Goals.newGoal("health", p: 70, i: "Progress_0_2.png", s: 1)
-        Goals.newGoal("more things", p: 39, i: "Progress_0_2.png", s: 1)
-        Goals.newGoal("here", p: 3, i: "Progress_0_2.png", s: 1)
+        Goals.newGoal("Lung capacity", p: 96, s: 1)
+        Goals.newGoal("Heart Attack", p: 72, s: 1)
+        Goals.newGoal("health", p: 70, s: 1)
+        Goals.newGoal("more things", p: 39, s: 1)
+        Goals.newGoal("here", p: 3, s: 1)
         
-        Goals.newGoal("cancer stuff", p: 2, i: "Progress_0_2.png", s: 2)
-        Goals.newGoal("money stuff", p: 7, i: "Progress_0_2.png", s: 2)
+        Goals.newGoal("cancer stuff", p: 2, s: 2)
+        Goals.newGoal("money stuff", p: 7, s: 2)
         
         
         
@@ -68,11 +68,14 @@ class Goals_TableViewController: UITableViewController {
         
         var curr_stat = Goals.getGoal(indexPath.section, r: indexPath.row)
         
+        
+        
         var img = UIImage(named:curr_stat.image);
         cell.imageView?.image = img;
         
 
-        cell.textLabel?.text = curr_stat.title
+        cell.textLabel?.text = "\(curr_stat.percent)% \(curr_stat.title)"
+        
         
         cell.textLabel?.textColor = UIColor.whiteColor()
 
