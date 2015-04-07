@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F42A7171AD39B7E005A4F0F /* Timer_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F42A7161AD39B7E005A4F0F /* Timer_ViewController.swift */; };
 		5F9262CF1ABB68FF005B9021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9262CE1ABB68FF005B9021 /* AppDelegate.swift */; };
 		5F9262D41ABB68FF005B9021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F9262D21ABB68FF005B9021 /* Main.storyboard */; };
 		5F9262D61ABB68FF005B9021 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9262D51ABB68FF005B9021 /* Images.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F42A7161AD39B7E005A4F0F /* Timer_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer_ViewController.swift; sourceTree = "<group>"; };
 		5F9262C91ABB68FF005B9021 /* quitSmoking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quitSmoking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9262CD1ABB68FF005B9021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F9262CE1ABB68FF005B9021 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		5F9262CB1ABB68FF005B9021 /* quitSmoking */ = {
 			isa = PBXGroup;
 			children = (
+				5F42A7161AD39B7E005A4F0F /* Timer_ViewController.swift */,
 				F8E5015B1AD386A700B57CF3 /* Progress_0_2.png */,
 				F8E501471AD349F100B57CF3 /* clock_44.png */,
 				F8E501481AD349F100B57CF3 /* aim_44.png */,
@@ -238,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F42A7171AD39B7E005A4F0F /* Timer_ViewController.swift in Sources */,
 				F8AA63E11AD324A100252CF7 /* Goals_TableViewController.swift in Sources */,
 				F8E501541AD35AEF00B57CF3 /* Stat.swift in Sources */,
 				5F9262CF1ABB68FF005B9021 /* AppDelegate.swift in Sources */,
