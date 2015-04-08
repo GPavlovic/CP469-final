@@ -27,16 +27,6 @@ class HeaderCells: UITableViewCell {
             Goals.changeOpen(1)
         }
         
-       /* closeButton.setTitle("-", forState: UIControlState.Normal)
-        
-        if(closeButton.titleLabel?.text == "+"){
-            closeButton.setTitle("-", forState: UIControlState.Normal)
-            
-            
-        }
-        else if(closeButton?.titleLabel?.text == "-"){
-            closeButton?.setTitle("+", forState: UIControlState.Normal)
-        }*/
     }
     
     

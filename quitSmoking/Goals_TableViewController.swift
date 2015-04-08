@@ -114,7 +114,7 @@ class Goals_TableViewController: UITableViewController, UITableViewDataSource {
         
         //cell.d?.adjustsFontSizeToFitWidth = true
         
-        cell.d?.textColor = UIColor.grayColor()
+       // cell.d?.textColor = UIColor.grayColor()
         cell.p?.textColor = UIColor.whiteColor()
         
 

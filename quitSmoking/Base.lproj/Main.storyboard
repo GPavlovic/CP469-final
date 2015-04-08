@@ -70,8 +70,8 @@
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="42" id="3fs-dz-rq2"/>
                                             </constraints>
-                                            <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                            <color key="textColor" red="1" green="0.9308662933982691" blue="0.81882432465549848" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Progress_0_2.png" translatesAutoresizingMaskIntoConstraints="NO" id="joj-tN-1g8">
@@ -144,7 +144,7 @@
                                         <constraint firstItem="dAt-fc-82y" firstAttribute="trailing" secondItem="L6u-jl-C9K" secondAttribute="trailingMargin" id="lIL-zM-TXw"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.57692155934343436" green="0.57692155934343436" blue="0.57692155934343436" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.70196854440789469" green="0.38431372549019477" blue="0.039215686274509803" alpha="0.81000000000000005" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="closeButton" destination="dAt-fc-82y" id="5e9-TW-0dE"/>
                                     <outlet property="sectionLabel" destination="HRJ-BN-WYO" id="E88-Kg-ebp"/>
