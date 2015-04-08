@@ -37,7 +37,7 @@ class buttonClass: UIButton {
         
         if(green == true){
             green = false
-            self.layer.backgroundColor = UIColor(red: 156/255, green: 22/255, blue: 22/255, alpha: 0.75).CGColor
+            self.layer.backgroundColor = UIColor(red: 168/255, green: 13/255, blue: 13/255, alpha: 0.75).CGColor
             
             var s = self.titleLabel?.text
             Goals.removeInterest(s!)
@@ -45,7 +45,7 @@ class buttonClass: UIButton {
         }
         else if(green == false){
             green = true
-            self.layer.backgroundColor = UIColor(red: 1/255, green: 133/255, blue: 1/255, alpha: 0.75).CGColor
+            self.layer.backgroundColor = UIColor(red: 22/255, green: 168/255, blue: 13/255, alpha: 0.75).CGColor
             var s = self.titleLabel?.text
             Goals.addInterest(s!)
         }

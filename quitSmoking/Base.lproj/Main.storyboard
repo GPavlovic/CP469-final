@@ -290,39 +290,62 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3nr-f5-ChG">
-                                <rect key="frame" x="269" y="50" width="63" height="38"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="START">
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="00Y-h3-CQv">
+                                <rect key="frame" x="0.0" y="90" width="600" height="461"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tXD-9H-nRc" customClass="nextButtons" customModule="quitSmoking" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="30" width="296" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="zKU-Xx-jZ5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <state key="normal" title="DONE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="66W-ha-8ta" eventType="touchUpInside" id="OGB-mP-5i1"/>
+                                    <segue destination="3X5-Cs-58a" kind="showDetail" id="XVc-0p-QpB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3nr-f5-ChG" customClass="nextButtons" customModule="quitSmoking" customModuleProvider="target">
+                                <rect key="frame" x="301" y="30" width="295" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="e5L-Jw-dYc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonPressed:" destination="66W-ha-8ta" eventType="touchUpInside" id="Iuo-XP-Bm6"/>
                                 </connections>
                             </button>
-                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="00Y-h3-CQv">
-                                <rect key="frame" x="0.0" y="111" width="600" height="440"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </webView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.85456123740000001" green="0.62977318940000004" blue="0.45753088800000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="00Y-h3-CQv" firstAttribute="top" secondItem="3nr-f5-ChG" secondAttribute="bottom" constant="31" id="7yV-2a-ife"/>
-                            <constraint firstAttribute="centerX" secondItem="3nr-f5-ChG" secondAttribute="centerX" id="Vfg-1t-reT"/>
-                            <constraint firstItem="3nr-f5-ChG" firstAttribute="top" secondItem="EkP-nY-cFC" secondAttribute="bottom" constant="30" id="WaW-TJ-hgV"/>
+                            <constraint firstItem="3nr-f5-ChG" firstAttribute="leading" secondItem="tXD-9H-nRc" secondAttribute="trailing" constant="5" id="0qg-Zi-6A1"/>
+                            <constraint firstItem="tXD-9H-nRc" firstAttribute="top" secondItem="5tN-eS-iXv" secondAttribute="topMargin" constant="30" id="8WI-wl-dRJ"/>
+                            <constraint firstItem="3nr-f5-ChG" firstAttribute="width" secondItem="tXD-9H-nRc" secondAttribute="width" id="Doq-8X-sMT"/>
+                            <constraint firstItem="00Y-h3-CQv" firstAttribute="top" secondItem="tXD-9H-nRc" secondAttribute="bottom" constant="10" id="Gzg-mW-C9I"/>
                             <constraint firstItem="00Y-h3-CQv" firstAttribute="leading" secondItem="5tN-eS-iXv" secondAttribute="leadingMargin" constant="-16" id="dvi-DZ-6Xl"/>
                             <constraint firstItem="GOB-qi-1Rl" firstAttribute="top" secondItem="00Y-h3-CQv" secondAttribute="bottom" id="eht-8k-Bds"/>
                             <constraint firstAttribute="trailingMargin" secondItem="00Y-h3-CQv" secondAttribute="trailing" constant="-16" id="gHT-d2-8w7"/>
+                            <constraint firstItem="tXD-9H-nRc" firstAttribute="leading" secondItem="5tN-eS-iXv" secondAttribute="leadingMargin" constant="-16" id="i3l-90-H4b"/>
+                            <constraint firstItem="3nr-f5-ChG" firstAttribute="top" secondItem="5tN-eS-iXv" secondAttribute="topMargin" constant="30" id="qVv-VF-DFc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3nr-f5-ChG" secondAttribute="trailing" constant="-12" id="qi7-3v-AGJ"/>
+                            <constraint firstItem="00Y-h3-CQv" firstAttribute="top" secondItem="3nr-f5-ChG" secondAttribute="bottom" constant="10" id="yjR-It-vTp"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="nextButton" destination="3nr-f5-ChG" id="c8b-dr-hNF"/>
                         <outlet property="webView" destination="00Y-h3-CQv" id="CWR-f7-NW5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oz3-G0-BfS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1105" y="1818"/>
+            <point key="canvasLocation" x="1128" y="1812"/>
         </scene>
         <!--Timer View Controller-->
         <scene sceneID="wc5-FX-kqZ">
@@ -423,8 +446,8 @@
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="42" id="3fs-dz-rq2"/>
                                             </constraints>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                            <color key="textColor" red="1" green="0.9308662933982691" blue="0.81882432465549848" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Progress_0_2.png" translatesAutoresizingMaskIntoConstraints="NO" id="joj-tN-1g8">

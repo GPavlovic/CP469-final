@@ -152,7 +152,7 @@ struct Goals{
             //24 hours
             //Within 24 hours you chance of heart attack decreases
             
-            Goals.newGoal("Chance of Heart Attack", p: 0, s: 0)
+            Goals.newGoal("Lower Heart Attack Risk", p: 0, s: 0)
             
             
             //48 hours
@@ -175,17 +175,17 @@ struct Goals{
             
             //1 year
             //i.imgur.com/pZmcx.gif
-            Goals.newGoal("50% Less Chance of Heart Attack", p: 0, s: 0)
+            Goals.newGoal("Heart Attack Risk(50%)", p: 0, s: 0)
             
             //5 years
-            Goals.newGoal("Stroke Risk of Non-Smoker", p: 0, s: 0)
+            Goals.newGoal("Stroke Risk Gone", p: 0, s: 0)
             
             
             //10 years
-            Goals.newGoal("Lung Cancer Risk of Non-Smoker", p: 0, s: 0)
+            Goals.newGoal("Lung Cancer Risk Gone", p: 0, s: 0)
             
             //15 years
-            Goals.newGoal("Heart Attack Risk of Non-Smoker", p: 0, s: 0)
+            Goals.newGoal("Heart Attack Risk Gone", p: 0, s: 0)
             //Goals.newGoal("money stuff", p: 0, s: 0)
             //Goals.newGoal("money stuff", p: 0, s: 0)
         }

@@ -21,6 +21,7 @@ class New_Parsers: NSObject, NSXMLParserDelegate{
     
     func start(urlPath: String){
         site_path = urlPath
+        
         var url: NSURL = NSURL(string: urlPath)!
         var request: NSURLRequest = NSURLRequest(URL: url)
         var connection: NSURLConnection;
