@@ -38,7 +38,7 @@ struct Goals{
         
     }
     static func getLink()->String{
-        var link = ""
+        var link = "-1"
         println("NO LINK");
         if(links.count > 0){
             println("LINK")
