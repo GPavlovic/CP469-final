@@ -12,6 +12,7 @@ import Foundation
 class Distraction_View: UIViewController, NSXMLParserDelegate{
 
     
+    @IBOutlet weak var nextButton: UIButton!
     @IBOutlet var webView: UIWebView!
     
     
@@ -40,29 +41,18 @@ class Distraction_View: UIViewController, NSXMLParserDelegate{
         
         //GET URL FROM GOALS, DEPENDING ON INTEREST(RANDOM)
         
-        if(Goals.checkInterest("World News") == true){
-            let urlPath: String = "http://rss.cbc.ca/lineup/world.xml"
            
-        
+        for(var i = 0; i < Goals.interestCount();i++){
+            let urlPath: String = Goals.getFeed(i)
             UIApplication.sharedApplication().networkActivityIndicatorVisible = true
-        
+
             var new_p = New_Parsers()
             new_p.start(urlPath)
         }
-        if(Goals.checkInterest("NHL") == true){
-            let urlPath: String = "http://www.nhl.com/rss/news.xml"
-           
+        
             
-            UIApplication.sharedApplication().networkActivityIndicatorVisible = true
-            
-            
-            
-            var new_p = New_Parsers()
-            new_p.start(urlPath)
-            
-            
-            
-        }
+        
+        
         
         
         
@@ -94,8 +84,9 @@ class Distraction_View: UIViewController, NSXMLParserDelegate{
     
     @IBAction func buttonPressed(sender: UIButton) {
         
-        sender.titleLabel?.text = "Next"
+        
         showPage()
+        nextButton.titleLabel?.text = "Next"
     }
     
     

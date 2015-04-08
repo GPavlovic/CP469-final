@@ -62,7 +62,7 @@ class New_Parsers: NSObject, NSXMLParserDelegate{
     
     func parser(parser: NSXMLParser!,didStartElement elementName: String!, namespaceURI: String!, qualifiedName : String!, attributes attributeDict: NSDictionary!) {
         
-        if site_path == "http://www.nhl.com/rss/news.xml" && elementName == "guid" {
+        if (site_path == "http://www.nhl.com/rss/news.xml" || site_path == "http://america.aljazeera.com/content/ajam/articles.rss") && elementName == "guid" {
             processingItem = true
         }
         else if site_path == "http://rss.cbc.ca/lineup/world.xml" && elementName == "item" {
@@ -115,7 +115,7 @@ class New_Parsers: NSObject, NSXMLParserDelegate{
             processingItem = false
         }
         }
-        else if(site_path == "http://rss.cbc.ca/lineup/world.xml"){
+        else if(site_path == "http://rss.cbc.ca/lineup/politics.xml"){
             if elementName == "item"{
                 itemsArray.append(currentElement)
                 //println("************************************")
@@ -160,6 +160,49 @@ class New_Parsers: NSObject, NSXMLParserDelegate{
             
             
             
+        }
+        
+        if(site_path == "http://america.aljazeera.com/content/ajam/articles.rss"){
+            if elementName == "guid"{
+                itemsArray.append(currentElement)
+                //println("************************************")
+                //println("Got item \(itemsArray.count):")
+                //println(" ")
+                //println(currentElement)
+                let theScanner = NSScanner(string: currentElement)
+                
+                var descrip: NSString?
+                var title: NSString?
+                var image: NSString?
+                
+                var url: NSString?
+                var ds: String
+                
+                
+                //var quoteSet = NSCharacterSet(charactersInString: "\n")
+                //theScanner.scanUpToCharactersFromSet(quoteSet, intoString: &title)
+                
+                
+                
+                ds = "http://"
+                theScanner.scanUpToString(ds, intoString: nil)
+                //ds = theScanner
+                theScanner.scanUpToString("", intoString: &url)
+                
+                
+                println("HERE")
+                println("\(url!)")
+                Goals.addLink(url!)
+                
+                
+                
+                
+                
+                //println("\(title)")
+                
+                currentElement = ""
+                processingItem = false
+            }
         }
         
     } //didEndElement

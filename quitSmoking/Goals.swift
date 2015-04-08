@@ -16,9 +16,10 @@ struct Goals{
     static var hidden_goals = [Stat]()
     static var interests = [String]()
     static var current:Int = 0
-    static var imageLinks = ["Progress_0_2.png", "Progress_5.png","Progress_10.png", "Progress_15.png",
-    "Progress_20.png","Progress_25.png", "Progress_30.png","Progress_35.png","Progress_40.png", "Progress_45.png","Progress_50.png","Progress_55.png","Progress_60.png","Progress_65.png", "Progress_70.png", "Progress_75.png", "Progress_80.png","Progress_85.png", "Progress_90.png",
-    "Progress_95.png","Progress_100.png"]
+    
+    
+    
+    static var interest_feeds = ["NHL":"http://www.nhl.com/rss/news.xml","World News":"http://america.aljazeera.com/content/ajam/articles.rss", "Politics":"http://rss.cbc.ca/lineup/politics.xml"]
     
     
     //init function
@@ -71,6 +72,19 @@ struct Goals{
             
         }
         return false
+        
+    }
+    
+    static func interestCount()->Int{
+        return interests.count
+    }
+    
+    static func getFeed(i: Int)->String{
+        var feed :String = ""
+        
+        feed = interest_feeds["\(interests[i])"]!
+        
+        return feed
         
     }
     
