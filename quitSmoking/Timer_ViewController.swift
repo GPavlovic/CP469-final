@@ -11,10 +11,16 @@ import Foundation
 
 class Timer_ViewController: UIViewController, NSCoding {
     
+    @IBOutlet weak var title_Label: OverviewLabels!
+    
+    @IBOutlet weak var sec_Label: OverviewLabels!
+   
     var quitTime : NSDate!
     var userDidQuit = false
     @IBOutlet var timerLabel: UILabel!
     @IBOutlet var moneyLabel: UILabel!
+    
+    
     var avgPackPrice:Double!
     var packsPerDay:Int!
     var moneySaved = 0.00
@@ -32,6 +38,11 @@ class Timer_ViewController: UIViewController, NSCoding {
         let filePath = self.dataFilePath()
         var goals = Goals();
         super.viewDidLoad()
+        
+        title_Label.changeText("TOTAL TIME SINCE QUITTING SMOKING");
+        
+        sec_Label.changeText("YOU HAVE SAVED");
+        
         refresh()
         if (NSFileManager.defaultManager().fileExistsAtPath(filePath)) {
             let data = NSMutableData(contentsOfFile: filePath)!
@@ -52,6 +63,8 @@ class Timer_ViewController: UIViewController, NSCoding {
         // Start updating the timer
         update()
         NSTimer.scheduledTimerWithTimeInterval(10.0, target: self, selector: Selector("update"), userInfo: nil, repeats: true)
+        
+        
     }
     
     override func didReceiveMemoryWarning() {

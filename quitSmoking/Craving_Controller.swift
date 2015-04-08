@@ -25,6 +25,7 @@ class Craving_Controller: UIViewController {
     @IBOutlet weak var Tech_button: UIButton!
     */
     
+    @IBOutlet weak var top_Label: UILabel!
     @IBOutlet weak var title_Label: UILabel!
     
     let colours = Colours()
@@ -46,6 +47,8 @@ class Craving_Controller: UIViewController {
         title_Label.layer.borderWidth = 2
         title_Label.layer.borderColor = UIColor.blackColor().CGColor
         
+        top_Label.layer.borderWidth = 2
+        top_Label.layer.borderColor = UIColor.blackColor().CGColor
     }
     
     

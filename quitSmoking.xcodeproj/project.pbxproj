@@ -14,6 +14,8 @@
 		5F9262E51ABB68FF005B9021 /* quitSmokingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9262E41ABB68FF005B9021 /* quitSmokingTests.swift */; };
 		F810255F1AD5421200ABBE53 /* New_Parsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F810255E1AD5421200ABBE53 /* New_Parsers.swift */; };
 		F81025611AD5772400ABBE53 /* nextButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81025601AD5772400ABBE53 /* nextButtons.swift */; };
+		F810256B1AD592A000ABBE53 /* rsz_help-128.png in Resources */ = {isa = PBXBuildFile; fileRef = F810256A1AD592A000ABBE53 /* rsz_help-128.png */; };
+		F810256D1AD5944300ABBE53 /* OverviewLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F810256C1AD5944300ABBE53 /* OverviewLabels.swift */; };
 		F8AA63DB1AD30F3D00252CF7 /* gear_44.png in Resources */ = {isa = PBXBuildFile; fileRef = F8AA63DA1AD30F3D00252CF7 /* gear_44.png */; };
 		F8AA63E11AD324A100252CF7 /* Goals_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AA63E01AD324A100252CF7 /* Goals_TableViewController.swift */; };
 		F8DF3B3C1AD462A4005CFD3B /* Progress_0_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F8DF3B271AD462A4005CFD3B /* Progress_0_2.png */; };
@@ -77,6 +79,8 @@
 		5F9262E41ABB68FF005B9021 /* quitSmokingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quitSmokingTests.swift; sourceTree = "<group>"; };
 		F810255E1AD5421200ABBE53 /* New_Parsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = New_Parsers.swift; sourceTree = "<group>"; };
 		F81025601AD5772400ABBE53 /* nextButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nextButtons.swift; sourceTree = "<group>"; };
+		F810256A1AD592A000ABBE53 /* rsz_help-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rsz_help-128.png"; sourceTree = "<group>"; };
+		F810256C1AD5944300ABBE53 /* OverviewLabels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverviewLabels.swift; sourceTree = "<group>"; };
 		F8AA63DA1AD30F3D00252CF7 /* gear_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear_44.png; sourceTree = "<group>"; };
 		F8AA63E01AD324A100252CF7 /* Goals_TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goals_TableViewController.swift; sourceTree = "<group>"; };
 		F8DF3B271AD462A4005CFD3B /* Progress_0_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Progress_0_2.png; sourceTree = "<group>"; };
@@ -160,6 +164,7 @@
 				F8DF3B531AD48AC2005CFD3B /* HeaderCells.swift */,
 				F8DF3B261AD462A4005CFD3B /* ProgressBar */,
 				F8E5015B1AD386A700B57CF3 /* Progress_0_2.png */,
+				F810256A1AD592A000ABBE53 /* rsz_help-128.png */,
 				F8E501471AD349F100B57CF3 /* clock_44.png */,
 				F8E501481AD349F100B57CF3 /* aim_44.png */,
 				F8E501491AD349F100B57CF3 /* scroll_44.png */,
@@ -182,6 +187,7 @@
 				F8DF3B671AD51F9B005CFD3B /* Distraction_View.swift */,
 				F810255E1AD5421200ABBE53 /* New_Parsers.swift */,
 				F81025601AD5772400ABBE53 /* nextButtons.swift */,
+				F810256C1AD5944300ABBE53 /* OverviewLabels.swift */,
 			);
 			path = quitSmoking;
 			sourceTree = "<group>";
@@ -328,6 +334,7 @@
 				F8DF3B4B1AD462A4005CFD3B /* Progress_70.png in Resources */,
 				F8DF3B461AD462A4005CFD3B /* Progress_5.png in Resources */,
 				F8E5014B1AD349F100B57CF3 /* aim_44.png in Resources */,
+				F810256B1AD592A000ABBE53 /* rsz_help-128.png in Resources */,
 				F8DF3B451AD462A4005CFD3B /* Progress_45.png in Resources */,
 				F8DF3B471AD462A4005CFD3B /* Progress_50.png in Resources */,
 				F8DF3B491AD462A4005CFD3B /* Progress_60.png in Resources */,
@@ -376,6 +383,7 @@
 				F8DF3B681AD51F9B005CFD3B /* Distraction_View.swift in Sources */,
 				F81025611AD5772400ABBE53 /* nextButtons.swift in Sources */,
 				F8DF3B661AD51847005CFD3B /* StartButton.swift in Sources */,
+				F810256D1AD5944300ABBE53 /* OverviewLabels.swift in Sources */,
 				F8DF3B5A1AD4C594005CFD3B /* Timer_ViewController.swift in Sources */,
 				F8DF3B5E1AD4CDC3005CFD3B /* Craving_Controller.swift in Sources */,
 				F8E501541AD35AEF00B57CF3 /* Stat.swift in Sources */,

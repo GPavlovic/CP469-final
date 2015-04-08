@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q5E-0C-yYW" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
-                                <rect key="frame" x="3" y="433" width="296" height="40"/>
+                                <rect key="frame" x="3" y="504" width="296" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="ok2-ok-Ulb"/>
                                 </constraints>
@@ -33,7 +33,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bV7-a5-sgf" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
-                                <rect key="frame" x="3" y="390" width="296" height="40"/>
+                                <rect key="frame" x="3" y="461" width="296" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="ycP-Ru-Jp1"/>
                                 </constraints>
@@ -47,7 +47,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="inc-Ys-emJ" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
-                                <rect key="frame" x="3" y="347" width="296" height="40"/>
+                                <rect key="frame" x="3" y="418" width="296" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Exi-CV-iq2"/>
                                 </constraints>
@@ -60,8 +60,8 @@
                                     <action selector="buttonPressed:" destination="KmA-Zv-zTq" eventType="touchUpInside" id="txw-2R-dZV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ko4-mM-ofv" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
-                                <rect key="frame" x="302" y="433" width="295" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ko4-mM-ofv" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
+                                <rect key="frame" x="302" y="508" width="295" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Oy7-BP-Bin"/>
                                 </constraints>
@@ -74,8 +74,8 @@
                                     <action selector="buttonPressed:" destination="KmA-Zv-zTq" eventType="touchUpInside" id="lLM-WE-92y"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhi-au-9wd" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
-                                <rect key="frame" x="302" y="390" width="295" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhi-au-9wd" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
+                                <rect key="frame" x="302" y="465" width="295" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="f1d-wi-9Vx"/>
                                 </constraints>
@@ -88,8 +88,8 @@
                                     <action selector="buttonPressed:" destination="KmA-Zv-zTq" eventType="touchUpInside" id="qor-eu-yIX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QNn-7e-n1B" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
-                                <rect key="frame" x="302" y="347" width="295" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QNn-7e-n1B" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
+                                <rect key="frame" x="302" y="422" width="295" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="BtT-D3-IQz"/>
                                 </constraints>
@@ -103,7 +103,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueD-we-suF" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
-                                <rect key="frame" x="3" y="304" width="296" height="40"/>
+                                <rect key="frame" x="3" y="375" width="296" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="1lo-6i-nGt"/>
                                 </constraints>
@@ -117,7 +117,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P8z-Xk-fJ5" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
-                                <rect key="frame" x="3" y="261" width="296" height="40"/>
+                                <rect key="frame" x="3" y="332" width="296" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="gxD-9d-BvS"/>
                                 </constraints>
@@ -131,7 +131,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cfd-fJ-bzV" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
-                                <rect key="frame" x="3" y="218" width="296" height="40"/>
+                                <rect key="frame" x="3" y="289" width="296" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="8G5-Hv-3Fe"/>
                                 </constraints>
@@ -144,8 +144,8 @@
                                     <action selector="buttonPressed:" destination="KmA-Zv-zTq" eventType="touchUpInside" id="lhY-5v-ZeN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1j-NE-SW7" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
-                                <rect key="frame" x="302" y="304" width="295" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1j-NE-SW7" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
+                                <rect key="frame" x="302" y="379" width="295" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="T3q-R0-niF"/>
                                 </constraints>
@@ -158,8 +158,8 @@
                                     <action selector="buttonPressed:" destination="KmA-Zv-zTq" eventType="touchUpInside" id="Z4t-AT-eMs"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4f-Tf-ti1" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
-                                <rect key="frame" x="302" y="261" width="295" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4f-Tf-ti1" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
+                                <rect key="frame" x="302" y="336" width="295" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="YID-ew-JQn"/>
                                 </constraints>
@@ -172,8 +172,8 @@
                                     <action selector="buttonPressed:" destination="KmA-Zv-zTq" eventType="touchUpInside" id="auh-tb-ILH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aRA-xT-L74" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
-                                <rect key="frame" x="302" y="218" width="295" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aRA-xT-L74" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
+                                <rect key="frame" x="302" y="293" width="295" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="a1q-bK-a28"/>
                                 </constraints>
@@ -186,20 +186,17 @@
                                     <action selector="buttonPressed:" destination="KmA-Zv-zTq" eventType="touchUpInside" id="r8t-gb-VI1"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Your Interests" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RbQ-tE-wgu">
-                                <rect key="frame" x="-2" y="180" width="604" height="35"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Choose Your Interests" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RbQ-tE-wgu">
+                                <rect key="frame" x="-2" y="246" width="604" height="40"/>
                                 <color key="backgroundColor" red="0.64520202020202022" green="0.64520202020202022" blue="0.64520202020202022" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="P3b-3d-82m"/>
+                                    <constraint firstAttribute="height" constant="40" id="P3b-3d-82m"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5l-zN-ohW" customClass="StartButton" customModule="quitSmoking" customModuleProvider="target">
-                                <rect key="frame" x="20" y="25" width="560" height="150"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="KB4-Pw-lQ6"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5l-zN-ohW" customClass="StartButton" customModule="quitSmoking" customModuleProvider="target">
+                                <rect key="frame" x="20" y="94" width="560" height="150"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="60"/>
                                 <state key="normal" title="START">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -208,24 +205,35 @@
                                     <segue destination="66W-ha-8ta" kind="show" id="Vlb-I5-IOz"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="KEEP BUSY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bG-dI-E6b">
+                                <rect key="frame" x="-2" y="49" width="604" height="35"/>
+                                <color key="backgroundColor" red="0.64520202019999995" green="0.64520202019999995" blue="0.64520202019999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="e8G-zt-o0m"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.85456123737373735" green="0.6297731893529015" blue="0.4575308879800295" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="V5l-zN-ohW" firstAttribute="top" secondItem="5fM-K7-i17" secondAttribute="topMargin" constant="25" id="4JN-MV-uEj"/>
+                            <constraint firstItem="7bG-dI-E6b" firstAttribute="top" secondItem="PrW-Lr-EhT" secondAttribute="bottom" constant="6" id="0bK-Bp-us1"/>
                             <constraint firstAttribute="trailingMargin" secondItem="g1j-NE-SW7" secondAttribute="trailing" constant="-13" id="4Rc-fH-s9I"/>
                             <constraint firstItem="Q5E-0C-yYW" firstAttribute="height" secondItem="QNn-7e-n1B" secondAttribute="height" id="695-Rx-UZH"/>
                             <constraint firstItem="inc-Ys-emJ" firstAttribute="top" secondItem="ueD-we-suF" secondAttribute="bottom" constant="3" id="6BL-sy-LO1"/>
                             <constraint firstAttribute="trailingMargin" secondItem="aRA-xT-L74" secondAttribute="trailing" constant="-13" id="7yK-9U-Gei"/>
                             <constraint firstItem="ueD-we-suF" firstAttribute="height" secondItem="g1j-NE-SW7" secondAttribute="height" id="8KJ-oM-pOJ"/>
                             <constraint firstItem="inc-Ys-emJ" firstAttribute="leading" secondItem="5fM-K7-i17" secondAttribute="leadingMargin" constant="-13" id="8zB-qo-f6r"/>
-                            <constraint firstItem="Cfd-fJ-bzV" firstAttribute="top" secondItem="RbQ-tE-wgu" secondAttribute="bottom" constant="3" id="94n-p3-K9j"/>
+                            <constraint firstItem="Cfd-fJ-bzV" firstAttribute="top" secondItem="RbQ-tE-wgu" secondAttribute="bottom" constant="7" id="94n-p3-K9j"/>
+                            <constraint firstItem="VZX-F2-5wv" firstAttribute="top" secondItem="Q5E-0C-yYW" secondAttribute="bottom" constant="7" id="9rG-TI-YTH"/>
                             <constraint firstItem="Q5E-0C-yYW" firstAttribute="top" secondItem="bV7-a5-sgf" secondAttribute="bottom" constant="3" id="A5G-cX-TTd"/>
+                            <constraint firstItem="7bG-dI-E6b" firstAttribute="leading" secondItem="5fM-K7-i17" secondAttribute="leadingMargin" constant="-18" id="ALM-Nl-5HL"/>
                             <constraint firstItem="Q5E-0C-yYW" firstAttribute="height" secondItem="inc-Ys-emJ" secondAttribute="height" id="Alr-iE-qq3"/>
                             <constraint firstItem="Q5E-0C-yYW" firstAttribute="leading" secondItem="5fM-K7-i17" secondAttribute="leadingMargin" constant="-13" id="BOk-nR-ZuO"/>
                             <constraint firstItem="bV7-a5-sgf" firstAttribute="leading" secondItem="5fM-K7-i17" secondAttribute="leadingMargin" constant="-13" id="BWJ-3a-d8Q"/>
                             <constraint firstItem="ueD-we-suF" firstAttribute="height" secondItem="Cfd-fJ-bzV" secondAttribute="height" id="C6d-cW-xPg"/>
                             <constraint firstItem="ueD-we-suF" firstAttribute="top" secondItem="P8z-Xk-fJ5" secondAttribute="bottom" constant="3" id="Cnu-tt-ceN"/>
-                            <constraint firstItem="aRA-xT-L74" firstAttribute="top" secondItem="RbQ-tE-wgu" secondAttribute="bottom" constant="3" id="CsP-I9-xEK"/>
+                            <constraint firstItem="aRA-xT-L74" firstAttribute="top" secondItem="RbQ-tE-wgu" secondAttribute="bottom" constant="7" id="CsP-I9-xEK"/>
                             <constraint firstAttribute="trailingMargin" secondItem="V5l-zN-ohW" secondAttribute="trailing" constant="4" id="Cy7-cd-7hX"/>
                             <constraint firstItem="P8z-Xk-fJ5" firstAttribute="width" secondItem="l4f-Tf-ti1" secondAttribute="width" id="D0G-I5-VbK"/>
                             <constraint firstItem="ueD-we-suF" firstAttribute="height" secondItem="l4f-Tf-ti1" secondAttribute="height" id="GkB-4I-dSm"/>
@@ -241,7 +249,7 @@
                             <constraint firstItem="ueD-we-suF" firstAttribute="height" secondItem="P8z-Xk-fJ5" secondAttribute="height" id="RYG-Yo-xxd"/>
                             <constraint firstItem="P8z-Xk-fJ5" firstAttribute="top" secondItem="Cfd-fJ-bzV" secondAttribute="bottom" constant="3" id="WhV-c1-afW"/>
                             <constraint firstItem="V5l-zN-ohW" firstAttribute="leading" secondItem="5fM-K7-i17" secondAttribute="leadingMargin" constant="4" id="WxD-KL-5T1"/>
-                            <constraint firstItem="RbQ-tE-wgu" firstAttribute="top" secondItem="V5l-zN-ohW" secondAttribute="bottom" constant="5" id="ZsF-Oo-d49"/>
+                            <constraint firstItem="RbQ-tE-wgu" firstAttribute="top" secondItem="V5l-zN-ohW" secondAttribute="bottom" constant="10" id="ZsF-Oo-d49"/>
                             <constraint firstItem="RbQ-tE-wgu" firstAttribute="leading" secondItem="5fM-K7-i17" secondAttribute="leadingMargin" constant="-18" id="Zya-uS-W7l"/>
                             <constraint firstItem="mhi-au-9wd" firstAttribute="top" secondItem="QNn-7e-n1B" secondAttribute="bottom" constant="3" id="cCE-t1-F2B"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ko4-mM-ofv" secondAttribute="trailing" constant="-13" id="cnM-W8-q9d"/>
@@ -257,12 +265,15 @@
                             <constraint firstItem="bV7-a5-sgf" firstAttribute="top" secondItem="inc-Ys-emJ" secondAttribute="bottom" constant="3" id="l3G-za-CeY"/>
                             <constraint firstItem="ueD-we-suF" firstAttribute="leading" secondItem="5fM-K7-i17" secondAttribute="leadingMargin" constant="-13" id="lbR-gJ-SLT"/>
                             <constraint firstItem="ueD-we-suF" firstAttribute="height" secondItem="aRA-xT-L74" secondAttribute="height" id="lpk-bw-9qs"/>
+                            <constraint firstItem="V5l-zN-ohW" firstAttribute="top" secondItem="7bG-dI-E6b" secondAttribute="bottom" constant="10" id="m9T-Ht-LJE"/>
                             <constraint firstItem="QNn-7e-n1B" firstAttribute="width" secondItem="inc-Ys-emJ" secondAttribute="width" id="mld-IZ-QrE"/>
                             <constraint firstItem="l4f-Tf-ti1" firstAttribute="top" secondItem="aRA-xT-L74" secondAttribute="bottom" constant="3" id="oJe-IO-udf"/>
                             <constraint firstItem="ko4-mM-ofv" firstAttribute="width" secondItem="Q5E-0C-yYW" secondAttribute="width" id="pSo-SP-WiH"/>
+                            <constraint firstItem="VZX-F2-5wv" firstAttribute="top" secondItem="ko4-mM-ofv" secondAttribute="bottom" constant="7" id="piP-Zu-mLN"/>
                             <constraint firstItem="g1j-NE-SW7" firstAttribute="leading" secondItem="ueD-we-suF" secondAttribute="trailing" constant="3" id="qKr-Mx-lVd"/>
                             <constraint firstAttribute="trailingMargin" secondItem="l4f-Tf-ti1" secondAttribute="trailing" constant="-13" id="s5C-Ux-6ki"/>
                             <constraint firstItem="aRA-xT-L74" firstAttribute="width" secondItem="Cfd-fJ-bzV" secondAttribute="width" id="tAi-yU-XKE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7bG-dI-E6b" secondAttribute="trailing" constant="-18" id="tMq-dU-Kc6"/>
                             <constraint firstItem="Cfd-fJ-bzV" firstAttribute="leading" secondItem="5fM-K7-i17" secondAttribute="leadingMargin" constant="-13" id="w3t-cy-bsi"/>
                         </constraints>
                     </view>
@@ -272,11 +283,12 @@
                     <connections>
                         <outlet property="NHL_button" destination="inc-Ys-emJ" id="uK3-9e-JCb"/>
                         <outlet property="title_Label" destination="RbQ-tE-wgu" id="Smv-kD-GMW"/>
+                        <outlet property="top_Label" destination="7bG-dI-E6b" id="czo-Pf-osq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GdA-be-gYz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1100" y="1016"/>
+            <point key="canvasLocation" x="1128" y="1011"/>
         </scene>
         <!--Distraction View-->
         <scene sceneID="Jzx-Nu-tdx">
@@ -359,57 +371,98 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zd0-Mc-Qjs">
-                                <rect key="frame" x="284" y="294" width="33" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zd0-Mc-Qjs">
+                                <rect key="frame" x="8" y="496" width="287" height="45"/>
+                                <color key="backgroundColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Pne-M4-I0H"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Start">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="startButtonPressed:" destination="hRP-Ch-mKS" eventType="touchUpInside" id="XzP-p9-ink"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUu-gs-LJd">
-                                <rect key="frame" x="280" y="348" width="40" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="TOTAL TIME SINCE QUITTING SMOKING" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QLW-QH-m0G" customClass="OverviewLabels" customModule="quitSmoking" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="25" width="600" height="42"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="0.60999999999999999" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0 days 0 hours 0 minutes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wjV-Ni-fdU">
+                                <rect key="frame" x="0.0" y="77" width="600" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.93086629340000004" blue="0.81882432469999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="N28-Ya-7jr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00$" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q5i-An-rbX">
+                                <rect key="frame" x="0.0" y="207" width="600" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.93086629340000004" blue="0.81882432469999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Pea-ce-nXM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOU HAVE SAVED" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZgF-LP-dbr" customClass="OverviewLabels" customModule="quitSmoking" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="155" width="600" height="42"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="0.60999999999999999" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="BaD-eU-zs3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUu-gs-LJd">
+                                <rect key="frame" x="305" y="496" width="287" height="45"/>
+                                <color key="backgroundColor" red="1" green="0.93086629340000004" blue="0.81882432469999999" alpha="0.88" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="hWI-Bf-ocT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Reset">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="resetTimer:" destination="hRP-Ch-mKS" eventType="touchUpInside" id="PGJ-Dq-bmI"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="You have quit smoking for:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QLW-QH-m0G">
-                                <rect key="frame" x="198" y="70" width="204" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="0 days 0 hours 0 minutes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wjV-Ni-fdU">
-                                <rect key="frame" x="204" y="118" width="193" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="You have saved:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qNE-IM-c56">
-                                <rect key="frame" x="242" y="168" width="126" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="0.00$" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q5i-An-rbX">
-                                <rect key="frame" x="279" y="225" width="43" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.96008917299999996" green="0.70908104660000004" blue="0.5167575297" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="QUu-gs-LJd" secondAttribute="centerX" id="ASM-7Q-Znp"/>
-                            <constraint firstAttribute="centerX" secondItem="zd0-Mc-Qjs" secondAttribute="centerX" id="It1-UM-hPf"/>
-                            <constraint firstAttribute="centerX" secondItem="QLW-QH-m0G" secondAttribute="centerX" id="OAR-zj-RKG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QUu-gs-LJd" secondAttribute="trailing" constant="-8" id="0Hf-2V-TJ8"/>
+                            <constraint firstItem="wjV-Ni-fdU" firstAttribute="height" secondItem="QLW-QH-m0G" secondAttribute="height" id="8X8-bl-RcV"/>
+                            <constraint firstItem="ZgF-LP-dbr" firstAttribute="top" secondItem="wjV-Ni-fdU" secondAttribute="bottom" constant="20" id="CmD-gb-mpN"/>
+                            <constraint firstItem="QLW-QH-m0G" firstAttribute="top" secondItem="udO-iT-e0R" secondAttribute="topMargin" constant="25" id="DT7-g8-qXC"/>
+                            <constraint firstItem="L5e-UN-bFE" firstAttribute="top" secondItem="QUu-gs-LJd" secondAttribute="bottom" constant="10" id="QGb-79-wzQ"/>
+                            <constraint firstAttribute="centerX" secondItem="wjV-Ni-fdU" secondAttribute="centerX" id="Sbu-he-cRE"/>
+                            <constraint firstItem="QLW-QH-m0G" firstAttribute="leading" secondItem="udO-iT-e0R" secondAttribute="leadingMargin" constant="-16" id="UFf-F2-rsX"/>
+                            <constraint firstItem="wjV-Ni-fdU" firstAttribute="leading" secondItem="udO-iT-e0R" secondAttribute="leadingMargin" constant="-16" id="UzA-Hv-ReL"/>
+                            <constraint firstItem="q5i-An-rbX" firstAttribute="top" secondItem="ZgF-LP-dbr" secondAttribute="bottom" constant="10" id="ZGm-53-E3M"/>
+                            <constraint firstItem="ZgF-LP-dbr" firstAttribute="leading" secondItem="udO-iT-e0R" secondAttribute="leadingMargin" constant="-16" id="dq1-uZ-SWN"/>
+                            <constraint firstItem="L5e-UN-bFE" firstAttribute="top" secondItem="zd0-Mc-Qjs" secondAttribute="bottom" constant="10" id="fOh-N6-g3I"/>
+                            <constraint firstItem="zd0-Mc-Qjs" firstAttribute="leading" secondItem="udO-iT-e0R" secondAttribute="leadingMargin" constant="-8" id="gja-cN-Rtu"/>
                             <constraint firstAttribute="centerX" secondItem="wjV-Ni-fdU" secondAttribute="centerX" id="jZJ-fg-rIr"/>
                             <constraint firstAttribute="centerX" secondItem="q5i-An-rbX" secondAttribute="centerX" id="kYB-Np-daf"/>
-                            <constraint firstAttribute="centerX" secondItem="qNE-IM-c56" secondAttribute="centerX" id="mkw-hw-rwD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZgF-LP-dbr" secondAttribute="trailing" constant="-16" id="lXF-oJ-FrB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="q5i-An-rbX" secondAttribute="trailing" constant="-16" id="ozb-HG-oMf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wjV-Ni-fdU" secondAttribute="trailing" constant="-16" id="qNu-CG-3gH"/>
+                            <constraint firstItem="QUu-gs-LJd" firstAttribute="leading" secondItem="zd0-Mc-Qjs" secondAttribute="trailing" constant="10" id="qpJ-02-raj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QLW-QH-m0G" secondAttribute="trailing" constant="-16" id="sKr-Xu-tdF"/>
+                            <constraint firstItem="QUu-gs-LJd" firstAttribute="width" secondItem="zd0-Mc-Qjs" secondAttribute="width" id="uLr-x6-utr"/>
+                            <constraint firstItem="wjV-Ni-fdU" firstAttribute="top" secondItem="QLW-QH-m0G" secondAttribute="bottom" constant="10" id="w2f-nr-Dib"/>
+                            <constraint firstItem="q5i-An-rbX" firstAttribute="leading" secondItem="udO-iT-e0R" secondAttribute="leadingMargin" constant="-16" id="yTD-JT-fwJ"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="scroll_44.png" id="7bU-OS-FaB">
@@ -417,7 +470,9 @@
                     </tabBarItem>
                     <connections>
                         <outlet property="moneyLabel" destination="q5i-An-rbX" id="bXF-a1-2l0"/>
+                        <outlet property="sec_Label" destination="ZgF-LP-dbr" id="VmZ-un-E9P"/>
                         <outlet property="timerLabel" destination="wjV-Ni-fdU" id="9md-kZ-0jp"/>
+                        <outlet property="title_Label" destination="QLW-QH-m0G" id="uWl-1y-huD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HV1-gz-Hly" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -428,11 +483,11 @@
         <scene sceneID="4Ze-FD-AnJ">
             <objects>
                 <tableViewController id="Crh-iY-Pq7" customClass="Goals_TableViewController" customModule="quitSmoking" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" tag="1" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="55" sectionHeaderHeight="30" sectionFooterHeight="22" id="44G-rk-99P">
+                    <tableView key="view" clipsSubviews="YES" tag="1" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" rowHeight="55" sectionHeaderHeight="30" sectionFooterHeight="22" id="44G-rk-99P">
                         <rect key="frame" x="0.0" y="64" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.96008917297979801" green="0.70908104662245197" blue="0.5167575297076521" alpha="0.0" colorSpace="calibratedRGB"/>
-                        <color key="separatorColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" red="0.2077217487373737" green="0.2077217487373737" blue="0.2077217487373737" alpha="0.34000000000000002" colorSpace="calibratedRGB"/>
                         <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                         <color key="sectionIndexBackgroundColor" red="0.96008917297979801" green="0.70908104662245197" blue="0.5167575297076521" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
@@ -589,8 +644,8 @@
                             <constraint firstItem="ZYP-p3-mqF" firstAttribute="top" secondItem="ZMh-tV-aKj" secondAttribute="bottom" id="gH4-bJ-Heh"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="gear_44.png" id="FZV-Yf-TAb">
-                        <inset key="imageInsets" minX="-5" minY="0.0" maxX="-4" maxY="-9"/>
+                    <tabBarItem key="tabBarItem" title="" image="rsz_help-128.png" id="FZV-Yf-TAb">
+                        <inset key="imageInsets" minX="-1" minY="4" maxX="-2" maxY="-5"/>
                     </tabBarItem>
                     <connections>
                         <outlet property="webView" destination="ZMh-tV-aKj" id="OQt-KH-H01"/>
@@ -605,7 +660,7 @@
         <image name="Progress_0_2.png" width="628" height="157"/>
         <image name="aim_44.png" width="44" height="44"/>
         <image name="clock_44.png" width="44" height="44"/>
-        <image name="gear_44.png" width="44" height="44"/>
+        <image name="rsz_help-128.png" width="44" height="44"/>
         <image name="scroll_44.png" width="44" height="44"/>
     </resources>
 </document>
