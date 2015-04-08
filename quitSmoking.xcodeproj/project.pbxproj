@@ -13,6 +13,7 @@
 		5F9262D61ABB68FF005B9021 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9262D51ABB68FF005B9021 /* Images.xcassets */; };
 		5F9262D91ABB68FF005B9021 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F9262D71ABB68FF005B9021 /* LaunchScreen.xib */; };
 		5F9262E51ABB68FF005B9021 /* quitSmokingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9262E41ABB68FF005B9021 /* quitSmokingTests.swift */; };
+		5FCB06961AD4BE0D0099BFDB /* Info_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCB06951AD4BE0D0099BFDB /* Info_ViewController.swift */; };
 		F8AA63DB1AD30F3D00252CF7 /* gear_44.png in Resources */ = {isa = PBXBuildFile; fileRef = F8AA63DA1AD30F3D00252CF7 /* gear_44.png */; };
 		F8AA63E11AD324A100252CF7 /* Goals_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AA63E01AD324A100252CF7 /* Goals_TableViewController.swift */; };
 		F8E5014A1AD349F100B57CF3 /* clock_44.png in Resources */ = {isa = PBXBuildFile; fileRef = F8E501471AD349F100B57CF3 /* clock_44.png */; };
@@ -44,6 +45,7 @@
 		5F9262DE1ABB68FF005B9021 /* quitSmokingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quitSmokingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9262E31ABB68FF005B9021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F9262E41ABB68FF005B9021 /* quitSmokingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quitSmokingTests.swift; sourceTree = "<group>"; };
+		5FCB06951AD4BE0D0099BFDB /* Info_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Info_ViewController.swift; sourceTree = "<group>"; };
 		F8AA63DA1AD30F3D00252CF7 /* gear_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear_44.png; sourceTree = "<group>"; };
 		F8AA63E01AD324A100252CF7 /* Goals_TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goals_TableViewController.swift; sourceTree = "<group>"; };
 		F8E501471AD349F100B57CF3 /* clock_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock_44.png; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				F8E501511AD35AD600B57CF3 /* Goals.swift */,
 				F8E501531AD35AEF00B57CF3 /* Stat.swift */,
 				5F42A7161AD39B7E005A4F0F /* Timer_ViewController.swift */,
+				5FCB06951AD4BE0D0099BFDB /* Info_ViewController.swift */,
 			);
 			path = quitSmoking;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				F8AA63E11AD324A100252CF7 /* Goals_TableViewController.swift in Sources */,
 				F8E501541AD35AEF00B57CF3 /* Stat.swift in Sources */,
 				5F9262CF1ABB68FF005B9021 /* AppDelegate.swift in Sources */,
+				5FCB06961AD4BE0D0099BFDB /* Info_ViewController.swift in Sources */,
 				F8E501521AD35AD600B57CF3 /* Goals.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

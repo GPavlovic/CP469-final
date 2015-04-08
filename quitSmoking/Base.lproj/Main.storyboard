@@ -89,10 +89,10 @@
             </objects>
             <point key="canvasLocation" x="1100" y="1023"/>
         </scene>
-        <!--Craving View Controller-->
+        <!--Info View Controller-->
         <scene sceneID="wc5-FX-kqZ">
             <objects>
-                <viewController id="hRP-Ch-mKS" customClass="Craving_ViewController" customModule="quitSmoking" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hRP-Ch-mKS" customClass="Info_ViewController" customModule="quitSmoking" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RGl-dP-Wj2"/>
                         <viewControllerLayoutGuide type="bottom" id="L5e-UN-bFE"/>
@@ -100,11 +100,26 @@
                     <view key="view" contentMode="scaleToFill" id="udO-iT-e0R">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iyi-rx-cDx">
+                                <rect key="frame" x="0.0" y="20" width="600" height="531"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
                         <color key="backgroundColor" red="0.79607843140000001" green="0.59607843140000005" blue="0.82745098039999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Iyi-rx-cDx" secondAttribute="trailing" id="Yhd-3v-GEI"/>
+                            <constraint firstItem="Iyi-rx-cDx" firstAttribute="top" secondItem="udO-iT-e0R" secondAttribute="top" constant="20" id="bwb-9u-3Wh"/>
+                            <constraint firstItem="Iyi-rx-cDx" firstAttribute="leading" secondItem="udO-iT-e0R" secondAttribute="leading" id="fNd-iJ-Lga"/>
+                            <constraint firstItem="Iyi-rx-cDx" firstAttribute="bottom" secondItem="L5e-UN-bFE" secondAttribute="top" id="hfc-ss-cBZ"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="scroll_44.png" id="7bU-OS-FaB">
                         <inset key="imageInsets" minX="-2" minY="2" maxX="-7" maxY="-8"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="webView" destination="Iyi-rx-cDx" id="UUS-y1-LSG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HV1-gz-Hly" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
