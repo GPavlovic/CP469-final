@@ -14,10 +14,6 @@
 		5F9262E51ABB68FF005B9021 /* quitSmokingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9262E41ABB68FF005B9021 /* quitSmokingTests.swift */; };
 		F810255F1AD5421200ABBE53 /* New_Parsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F810255E1AD5421200ABBE53 /* New_Parsers.swift */; };
 		F81025611AD5772400ABBE53 /* nextButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81025601AD5772400ABBE53 /* nextButtons.swift */; };
-		F81025661AD5854800ABBE53 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F81025621AD5854800ABBE53 /* Icon-40@2x.png */; };
-		F81025671AD5854800ABBE53 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F81025631AD5854800ABBE53 /* Icon-40@3x.png */; };
-		F81025681AD5854800ABBE53 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F81025641AD5854800ABBE53 /* Icon-60@2x.png */; };
-		F81025691AD5854800ABBE53 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F81025651AD5854800ABBE53 /* Icon-60@3x.png */; };
 		F8AA63DB1AD30F3D00252CF7 /* gear_44.png in Resources */ = {isa = PBXBuildFile; fileRef = F8AA63DA1AD30F3D00252CF7 /* gear_44.png */; };
 		F8AA63E11AD324A100252CF7 /* Goals_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AA63E01AD324A100252CF7 /* Goals_TableViewController.swift */; };
 		F8DF3B3C1AD462A4005CFD3B /* Progress_0_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F8DF3B271AD462A4005CFD3B /* Progress_0_2.png */; };
@@ -81,10 +77,6 @@
 		5F9262E41ABB68FF005B9021 /* quitSmokingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quitSmokingTests.swift; sourceTree = "<group>"; };
 		F810255E1AD5421200ABBE53 /* New_Parsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = New_Parsers.swift; sourceTree = "<group>"; };
 		F81025601AD5772400ABBE53 /* nextButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nextButtons.swift; sourceTree = "<group>"; };
-		F81025621AD5854800ABBE53 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
-		F81025631AD5854800ABBE53 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
-		F81025641AD5854800ABBE53 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
-		F81025651AD5854800ABBE53 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
 		F8AA63DA1AD30F3D00252CF7 /* gear_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear_44.png; sourceTree = "<group>"; };
 		F8AA63E01AD324A100252CF7 /* Goals_TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goals_TableViewController.swift; sourceTree = "<group>"; };
 		F8DF3B271AD462A4005CFD3B /* Progress_0_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Progress_0_2.png; sourceTree = "<group>"; };
@@ -165,10 +157,6 @@
 		5F9262CB1ABB68FF005B9021 /* quitSmoking */ = {
 			isa = PBXGroup;
 			children = (
-				F81025621AD5854800ABBE53 /* Icon-40@2x.png */,
-				F81025631AD5854800ABBE53 /* Icon-40@3x.png */,
-				F81025641AD5854800ABBE53 /* Icon-60@2x.png */,
-				F81025651AD5854800ABBE53 /* Icon-60@3x.png */,
 				F8DF3B531AD48AC2005CFD3B /* HeaderCells.swift */,
 				F8DF3B261AD462A4005CFD3B /* ProgressBar */,
 				F8E5015B1AD386A700B57CF3 /* Progress_0_2.png */,
@@ -338,7 +326,6 @@
 				F8E5014A1AD349F100B57CF3 /* clock_44.png in Resources */,
 				F8DF3B4A1AD462A4005CFD3B /* Progress_65.png in Resources */,
 				F8DF3B4B1AD462A4005CFD3B /* Progress_70.png in Resources */,
-				F81025671AD5854800ABBE53 /* Icon-40@3x.png in Resources */,
 				F8DF3B461AD462A4005CFD3B /* Progress_5.png in Resources */,
 				F8E5014B1AD349F100B57CF3 /* aim_44.png in Resources */,
 				F8DF3B451AD462A4005CFD3B /* Progress_45.png in Resources */,
@@ -358,13 +345,10 @@
 				F8DF3B441AD462A4005CFD3B /* Progress_40.png in Resources */,
 				F8DF3B4D1AD462A4005CFD3B /* Progress_80.png in Resources */,
 				5F9262D61ABB68FF005B9021 /* Images.xcassets in Resources */,
-				F81025681AD5854800ABBE53 /* Icon-60@2x.png in Resources */,
 				F8DF3B3C1AD462A4005CFD3B /* Progress_0_2.png in Resources */,
 				F8DF3B431AD462A4005CFD3B /* Progress_35.png in Resources */,
-				F81025661AD5854800ABBE53 /* Icon-40@2x.png in Resources */,
 				F8DF3B4C1AD462A4005CFD3B /* Progress_75.png in Resources */,
 				F8DF3B501AD462A4005CFD3B /* Progress_95.png in Resources */,
-				F81025691AD5854800ABBE53 /* Icon-60@3x.png in Resources */,
 				F8DF3B401AD462A4005CFD3B /* Progress_20.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
