@@ -38,7 +38,9 @@
 		F8DF3B521AD47905005CFD3B /* Standard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF3B511AD47905005CFD3B /* Standard.swift */; };
 		F8DF3B541AD48AC2005CFD3B /* HeaderCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF3B531AD48AC2005CFD3B /* HeaderCells.swift */; };
 		F8DF3B561AD4B1D7005CFD3B /* Colours.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF3B551AD4B1D7005CFD3B /* Colours.swift */; };
-		F8DF3B581AD4B272005CFD3B /* Overview_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF3B571AD4B272005CFD3B /* Overview_Controller.swift */; };
+		F8DF3B5A1AD4C594005CFD3B /* Timer_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF3B591AD4C594005CFD3B /* Timer_ViewController.swift */; };
+		F8DF3B5C1AD4C5C5005CFD3B /* Info_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF3B5B1AD4C5C5005CFD3B /* Info_ViewController.swift */; };
+		F8DF3B5E1AD4CDC3005CFD3B /* Craving_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF3B5D1AD4CDC3005CFD3B /* Craving_Controller.swift */; };
 		F8E5014A1AD349F100B57CF3 /* clock_44.png in Resources */ = {isa = PBXBuildFile; fileRef = F8E501471AD349F100B57CF3 /* clock_44.png */; };
 		F8E5014B1AD349F100B57CF3 /* aim_44.png in Resources */ = {isa = PBXBuildFile; fileRef = F8E501481AD349F100B57CF3 /* aim_44.png */; };
 		F8E5014C1AD349F100B57CF3 /* scroll_44.png in Resources */ = {isa = PBXBuildFile; fileRef = F8E501491AD349F100B57CF3 /* scroll_44.png */; };
@@ -93,7 +95,9 @@
 		F8DF3B511AD47905005CFD3B /* Standard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Standard.swift; sourceTree = "<group>"; };
 		F8DF3B531AD48AC2005CFD3B /* HeaderCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCells.swift; sourceTree = "<group>"; };
 		F8DF3B551AD4B1D7005CFD3B /* Colours.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colours.swift; sourceTree = "<group>"; };
-		F8DF3B571AD4B272005CFD3B /* Overview_Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Overview_Controller.swift; sourceTree = "<group>"; };
+		F8DF3B591AD4C594005CFD3B /* Timer_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer_ViewController.swift; sourceTree = "<group>"; };
+		F8DF3B5B1AD4C5C5005CFD3B /* Info_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Info_ViewController.swift; sourceTree = "<group>"; };
+		F8DF3B5D1AD4CDC3005CFD3B /* Craving_Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Craving_Controller.swift; sourceTree = "<group>"; };
 		F8E501471AD349F100B57CF3 /* clock_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock_44.png; sourceTree = "<group>"; };
 		F8E501481AD349F100B57CF3 /* aim_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aim_44.png; sourceTree = "<group>"; };
 		F8E501491AD349F100B57CF3 /* scroll_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scroll_44.png; sourceTree = "<group>"; };
@@ -158,7 +162,9 @@
 				F8E501531AD35AEF00B57CF3 /* Stat.swift */,
 				F8DF3B511AD47905005CFD3B /* Standard.swift */,
 				F8DF3B551AD4B1D7005CFD3B /* Colours.swift */,
-				F8DF3B571AD4B272005CFD3B /* Overview_Controller.swift */,
+				F8DF3B591AD4C594005CFD3B /* Timer_ViewController.swift */,
+				F8DF3B5B1AD4C5C5005CFD3B /* Info_ViewController.swift */,
+				F8DF3B5D1AD4CDC3005CFD3B /* Craving_Controller.swift */,
 			);
 			path = quitSmoking;
 			sourceTree = "<group>";
@@ -343,12 +349,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8AA63E11AD324A100252CF7 /* Goals_TableViewController.swift in Sources */,
+				F8DF3B5C1AD4C5C5005CFD3B /* Info_ViewController.swift in Sources */,
 				F8DF3B561AD4B1D7005CFD3B /* Colours.swift in Sources */,
 				F8DF3B521AD47905005CFD3B /* Standard.swift in Sources */,
 				F8DF3B541AD48AC2005CFD3B /* HeaderCells.swift in Sources */,
+				F8DF3B5A1AD4C594005CFD3B /* Timer_ViewController.swift in Sources */,
+				F8DF3B5E1AD4CDC3005CFD3B /* Craving_Controller.swift in Sources */,
 				F8E501541AD35AEF00B57CF3 /* Stat.swift in Sources */,
 				5F9262CF1ABB68FF005B9021 /* AppDelegate.swift in Sources */,
-				F8DF3B581AD4B272005CFD3B /* Overview_Controller.swift in Sources */,
 				F8E501521AD35AD600B57CF3 /* Goals.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

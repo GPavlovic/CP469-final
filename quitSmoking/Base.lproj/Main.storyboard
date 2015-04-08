@@ -6,10 +6,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Craving Controller-->
         <scene sceneID="mYj-ut-uFN">
             <objects>
-                <viewController id="KmA-Zv-zTq" sceneMemberID="viewController">
+                <viewController id="KmA-Zv-zTq" customClass="Craving_Controller" customModule="quitSmoking" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PrW-Lr-EhT"/>
                         <viewControllerLayoutGuide type="bottom" id="VZX-F2-5wv"/>
@@ -17,7 +17,7 @@
                     <view key="view" contentMode="scaleToFill" id="5fM-K7-i17">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.96008917299999996" green="0.70908104660000004" blue="0.5167575297" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.85456123737373735" green="0.6297731893529015" blue="0.4575308879800295" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="clock_44.png" id="viP-xd-M8K">
                         <inset key="imageInsets" minX="0.0" minY="4" maxX="0.0" maxY="-4"/>
@@ -27,10 +27,10 @@
             </objects>
             <point key="canvasLocation" x="1100" y="1016"/>
         </scene>
-        <!--Overview Controller-->
+        <!--Timer View Controller-->
         <scene sceneID="wc5-FX-kqZ">
             <objects>
-                <viewController id="hRP-Ch-mKS" customClass="Overview_Controller" customModule="quitSmoking" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hRP-Ch-mKS" customClass="Timer_ViewController" customModule="quitSmoking" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RGl-dP-Wj2"/>
                         <viewControllerLayoutGuide type="bottom" id="L5e-UN-bFE"/>
@@ -38,11 +38,67 @@
                     <view key="view" contentMode="scaleToFill" id="udO-iT-e0R">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zd0-Mc-Qjs">
+                                <rect key="frame" x="284" y="294" width="33" height="30"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startButtonPressed:" destination="hRP-Ch-mKS" eventType="touchUpInside" id="XzP-p9-ink"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUu-gs-LJd">
+                                <rect key="frame" x="280" y="348" width="40" height="30"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetTimer:" destination="hRP-Ch-mKS" eventType="touchUpInside" id="PGJ-Dq-bmI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="You have quit smoking for:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QLW-QH-m0G">
+                                <rect key="frame" x="198" y="70" width="204" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="0 days 0 hours 0 minutes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wjV-Ni-fdU">
+                                <rect key="frame" x="204" y="118" width="193" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="You have saved:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qNE-IM-c56">
+                                <rect key="frame" x="242" y="168" width="126" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="0.00$" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q5i-An-rbX">
+                                <rect key="frame" x="279" y="225" width="43" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.96008917299999996" green="0.70908104660000004" blue="0.5167575297" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="QUu-gs-LJd" secondAttribute="centerX" id="ASM-7Q-Znp"/>
+                            <constraint firstAttribute="centerX" secondItem="zd0-Mc-Qjs" secondAttribute="centerX" id="It1-UM-hPf"/>
+                            <constraint firstAttribute="centerX" secondItem="QLW-QH-m0G" secondAttribute="centerX" id="OAR-zj-RKG"/>
+                            <constraint firstAttribute="centerX" secondItem="wjV-Ni-fdU" secondAttribute="centerX" id="jZJ-fg-rIr"/>
+                            <constraint firstAttribute="centerX" secondItem="q5i-An-rbX" secondAttribute="centerX" id="kYB-Np-daf"/>
+                            <constraint firstAttribute="centerX" secondItem="qNE-IM-c56" secondAttribute="centerX" id="mkw-hw-rwD"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="scroll_44.png" id="7bU-OS-FaB">
                         <inset key="imageInsets" minX="-2" minY="2" maxX="-7" maxY="-8"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="moneyLabel" destination="q5i-An-rbX" id="bXF-a1-2l0"/>
+                        <outlet property="timerLabel" destination="wjV-Ni-fdU" id="9md-kZ-0jp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HV1-gz-Hly" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -109,7 +165,7 @@
                                     <outlet property="stand_image" destination="joj-tN-1g8" id="rPs-Hv-Rjc"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell alpha="0.74999999999999978" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GoalHeader" id="ZsN-cK-Hka" customClass="HeaderCells" customModule="quitSmoking" customModuleProvider="target">
+                            <tableViewCell alpha="0.59999999999999964" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GoalHeader" id="ZsN-cK-Hka" customClass="HeaderCells" customModule="quitSmoking" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZsN-cK-Hka" id="L6u-jl-C9K">
@@ -144,7 +200,7 @@
                                         <constraint firstItem="dAt-fc-82y" firstAttribute="trailing" secondItem="L6u-jl-C9K" secondAttribute="trailingMargin" id="lIL-zM-TXw"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.70196854440789469" green="0.38431372549019477" blue="0.039215686274509803" alpha="0.81000000000000005" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.5769215593" green="0.5769215593" blue="0.5769215593" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="closeButton" destination="dAt-fc-82y" id="5e9-TW-0dE"/>
                                     <outlet property="sectionLabel" destination="HRJ-BN-WYO" id="E88-Kg-ebp"/>
@@ -181,17 +237,55 @@
                         <segue destination="hRP-Ch-mKS" kind="relationship" relationship="viewControllers" id="zOi-bU-SFI"/>
                         <segue destination="KmA-Zv-zTq" kind="relationship" relationship="viewControllers" id="orc-sX-TuV"/>
                         <segue destination="Crh-iY-Pq7" kind="relationship" relationship="viewControllers" id="a1B-Ja-Xoc"/>
+                        <segue destination="gD8-H0-PuT" kind="relationship" relationship="viewControllers" id="2CV-kM-qG7"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xkr-3W-abX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="282" y="668"/>
+            <point key="canvasLocation" x="274" y="654"/>
+        </scene>
+        <!--Info View Controller-->
+        <scene sceneID="8MM-uQ-I4R">
+            <objects>
+                <viewController id="gD8-H0-PuT" customClass="Info_ViewController" customModule="quitSmoking" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="910-ht-tty"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZYP-p3-mqF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NVk-iA-A5X">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZMh-tV-aKj">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZMh-tV-aKj" firstAttribute="leading" secondItem="NVk-iA-A5X" secondAttribute="leadingMargin" constant="-16" id="CYf-bE-AU7"/>
+                            <constraint firstItem="ZMh-tV-aKj" firstAttribute="top" secondItem="NVk-iA-A5X" secondAttribute="topMargin" id="N5P-9A-aA3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZMh-tV-aKj" secondAttribute="trailing" constant="-16" id="fFG-TF-ngt"/>
+                            <constraint firstItem="ZYP-p3-mqF" firstAttribute="top" secondItem="ZMh-tV-aKj" secondAttribute="bottom" id="gH4-bJ-Heh"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="gear_44.png" id="FZV-Yf-TAb">
+                        <inset key="imageInsets" minX="-5" minY="0.0" maxX="-4" maxY="-9"/>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="webView" destination="ZMh-tV-aKj" id="OQt-KH-H01"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rmr-YN-qdo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="284" y="1393"/>
         </scene>
     </scenes>
     <resources>
         <image name="Progress_0_2.png" width="628" height="157"/>
         <image name="aim_44.png" width="44" height="44"/>
         <image name="clock_44.png" width="44" height="44"/>
+        <image name="gear_44.png" width="44" height="44"/>
         <image name="scroll_44.png" width="44" height="44"/>
     </resources>
 </document>
