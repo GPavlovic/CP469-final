@@ -11,23 +11,25 @@ class Goals_TableViewController: UITableViewController, UITableViewDataSource {
 
     @IBOutlet var Table: UITableView!
     
-    /*let colours = Colours()
+    let colours = Colours()
     func refresh() {
         view.backgroundColor = UIColor.clearColor()
         var backgroundLayer = colours.gl
         backgroundLayer.frame = view.frame
+        backgroundLayer.frame.inset(dx: 0, dy: -50)
         view.layer.insertSublayer(backgroundLayer, atIndex: 0)
-    }*/
+    }
     
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        //refresh();
+        refresh();
         var goals = Goals();
         add_stats();
         //self.tableView.contentInset = UIEdgeInsetsMake(20.0, 0.0, 0.0, 0.0);
-        self.tableView.contentInset = UIEdgeInsetsMake(20.0, 0.0, 0.0, 0.0);
+        self.tableView.contentInset = UIEdgeInsetsMake(20.0, 0.0, 50.0, 0.0);
+
         
         
 
@@ -96,7 +98,7 @@ class Goals_TableViewController: UITableViewController, UITableViewDataSource {
         
         
         let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as Standard
-
+        
         
         
         var curr_stat = Goals.getGoal(indexPath.section, r: indexPath.row)
