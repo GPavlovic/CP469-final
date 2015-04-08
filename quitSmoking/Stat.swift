@@ -3,7 +3,7 @@ import UIKit
 
 
 struct Stat {
-    let title:String
-    let percent :Int
-    let image :String
+    var title:String
+    var percent :Int
+    var image :String
 }

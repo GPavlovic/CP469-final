@@ -30,7 +30,7 @@ class Timer_ViewController: UIViewController, NSCoding {
     
     override func viewDidLoad() {
         let filePath = self.dataFilePath()
-        
+        var goals = Goals();
         super.viewDidLoad()
         refresh()
         if (NSFileManager.defaultManager().fileExistsAtPath(filePath)) {
@@ -61,6 +61,7 @@ class Timer_ViewController: UIViewController, NSCoding {
     
     func update() {
         if (userDidQuit) {
+            println("Here");
             var currentTime = NSDate()
             let calendar = NSCalendar.currentCalendar()
             // Days
@@ -73,19 +74,22 @@ class Timer_ViewController: UIViewController, NSCoding {
             let unitMin:NSCalendarUnit = NSCalendarUnit.CalendarUnitMinute
             let compMin = calendar.components(unitMin, fromDate: quitTime, toDate: currentTime, options: nil)
             
-            timerLabel.text = String(compDay.day)+" days "+String(compHour.hour)+" hours "+String(compMin.minute)+" minutes"
+            timerLabel.text = String(compDay.day)+" days "+String(compHour.hour%24)+" hours "+String(compMin.minute%60)+" minutes"
             
             println("Hours: \(compHour.hour)")
             println("Minutes: \(compMin.minute)")
             println("Days: \(compDay.day)")
             
             moneySaved = Double(compMin.minute) * (avgPackPrice * Double(packsPerDay))/1440
-            + Double(compHour.hour) * (avgPackPrice * Double(packsPerDay))/24
-            + Double(compDay.day) * avgPackPrice * Double(packsPerDay)
+            
+            println("Packs: \(packsPerDay)")
+            println("Price: \(avgPackPrice)")
             
             //money change per day:
             //moneySaved = Double(compDay.day) * avgPackPrice * Double(packsPerDay)
             moneyLabel.text = String(format:"%.2f",moneySaved)+"$"
+            
+            Goals.updateGoals(compMin.minute, hour: compHour.hour, day:compDay.day, ppd:packsPerDay, saved:moneySaved);
         }
     }
     

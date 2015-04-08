@@ -41,6 +41,10 @@
 		F8DF3B5A1AD4C594005CFD3B /* Timer_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF3B591AD4C594005CFD3B /* Timer_ViewController.swift */; };
 		F8DF3B5C1AD4C5C5005CFD3B /* Info_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF3B5B1AD4C5C5005CFD3B /* Info_ViewController.swift */; };
 		F8DF3B5E1AD4CDC3005CFD3B /* Craving_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF3B5D1AD4CDC3005CFD3B /* Craving_Controller.swift */; };
+		F8DF3B601AD4D44C005CFD3B /* Progress_0.png in Resources */ = {isa = PBXBuildFile; fileRef = F8DF3B5F1AD4D44C005CFD3B /* Progress_0.png */; };
+		F8DF3B641AD50B2E005CFD3B /* buttonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF3B631AD50B2E005CFD3B /* buttonClass.swift */; };
+		F8DF3B661AD51847005CFD3B /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF3B651AD51847005CFD3B /* StartButton.swift */; };
+		F8DF3B681AD51F9B005CFD3B /* Distraction_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF3B671AD51F9B005CFD3B /* Distraction_View.swift */; };
 		F8E5014A1AD349F100B57CF3 /* clock_44.png in Resources */ = {isa = PBXBuildFile; fileRef = F8E501471AD349F100B57CF3 /* clock_44.png */; };
 		F8E5014B1AD349F100B57CF3 /* aim_44.png in Resources */ = {isa = PBXBuildFile; fileRef = F8E501481AD349F100B57CF3 /* aim_44.png */; };
 		F8E5014C1AD349F100B57CF3 /* scroll_44.png in Resources */ = {isa = PBXBuildFile; fileRef = F8E501491AD349F100B57CF3 /* scroll_44.png */; };
@@ -98,6 +102,10 @@
 		F8DF3B591AD4C594005CFD3B /* Timer_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer_ViewController.swift; sourceTree = "<group>"; };
 		F8DF3B5B1AD4C5C5005CFD3B /* Info_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Info_ViewController.swift; sourceTree = "<group>"; };
 		F8DF3B5D1AD4CDC3005CFD3B /* Craving_Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Craving_Controller.swift; sourceTree = "<group>"; };
+		F8DF3B5F1AD4D44C005CFD3B /* Progress_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Progress_0.png; sourceTree = "<group>"; };
+		F8DF3B631AD50B2E005CFD3B /* buttonClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = buttonClass.swift; sourceTree = "<group>"; };
+		F8DF3B651AD51847005CFD3B /* StartButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
+		F8DF3B671AD51F9B005CFD3B /* Distraction_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Distraction_View.swift; sourceTree = "<group>"; };
 		F8E501471AD349F100B57CF3 /* clock_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock_44.png; sourceTree = "<group>"; };
 		F8E501481AD349F100B57CF3 /* aim_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aim_44.png; sourceTree = "<group>"; };
 		F8E501491AD349F100B57CF3 /* scroll_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scroll_44.png; sourceTree = "<group>"; };
@@ -165,6 +173,9 @@
 				F8DF3B591AD4C594005CFD3B /* Timer_ViewController.swift */,
 				F8DF3B5B1AD4C5C5005CFD3B /* Info_ViewController.swift */,
 				F8DF3B5D1AD4CDC3005CFD3B /* Craving_Controller.swift */,
+				F8DF3B631AD50B2E005CFD3B /* buttonClass.swift */,
+				F8DF3B651AD51847005CFD3B /* StartButton.swift */,
+				F8DF3B671AD51F9B005CFD3B /* Distraction_View.swift */,
 			);
 			path = quitSmoking;
 			sourceTree = "<group>";
@@ -199,6 +210,7 @@
 			children = (
 				F8DF3B271AD462A4005CFD3B /* Progress_0_2.png */,
 				F8DF3B281AD462A4005CFD3B /* Progress_10.png */,
+				F8DF3B5F1AD4D44C005CFD3B /* Progress_0.png */,
 				F8DF3B291AD462A4005CFD3B /* Progress_100.png */,
 				F8DF3B2A1AD462A4005CFD3B /* Progress_15.png */,
 				F8DF3B2B1AD462A4005CFD3B /* Progress_20.png */,
@@ -323,6 +335,7 @@
 				F8DF3B3F1AD462A4005CFD3B /* Progress_15.png in Resources */,
 				5F9262D91ABB68FF005B9021 /* LaunchScreen.xib in Resources */,
 				F8DF3B421AD462A4005CFD3B /* Progress_30.png in Resources */,
+				F8DF3B601AD4D44C005CFD3B /* Progress_0.png in Resources */,
 				F8DF3B441AD462A4005CFD3B /* Progress_40.png in Resources */,
 				F8DF3B4D1AD462A4005CFD3B /* Progress_80.png in Resources */,
 				5F9262D61ABB68FF005B9021 /* Images.xcassets in Resources */,
@@ -353,6 +366,9 @@
 				F8DF3B561AD4B1D7005CFD3B /* Colours.swift in Sources */,
 				F8DF3B521AD47905005CFD3B /* Standard.swift in Sources */,
 				F8DF3B541AD48AC2005CFD3B /* HeaderCells.swift in Sources */,
+				F8DF3B641AD50B2E005CFD3B /* buttonClass.swift in Sources */,
+				F8DF3B681AD51F9B005CFD3B /* Distraction_View.swift in Sources */,
+				F8DF3B661AD51847005CFD3B /* StartButton.swift in Sources */,
 				F8DF3B5A1AD4C594005CFD3B /* Timer_ViewController.swift in Sources */,
 				F8DF3B5E1AD4CDC3005CFD3B /* Craving_Controller.swift in Sources */,
 				F8E501541AD35AEF00B57CF3 /* Stat.swift in Sources */,

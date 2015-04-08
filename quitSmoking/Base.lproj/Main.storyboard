@@ -17,15 +17,310 @@
                     <view key="view" contentMode="scaleToFill" id="5fM-K7-i17">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q5E-0C-yYW" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
+                                <rect key="frame" x="3" y="433" width="296" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ok2-ok-Ulb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Cars">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="KmA-Zv-zTq" eventType="touchUpInside" id="OAi-19-S3E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bV7-a5-sgf" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
+                                <rect key="frame" x="3" y="390" width="296" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ycP-Ru-Jp1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Movies">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="KmA-Zv-zTq" eventType="touchUpInside" id="6Lf-gf-a0j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="inc-Ys-emJ" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
+                                <rect key="frame" x="3" y="347" width="296" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Exi-CV-iq2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="NHL">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="KmA-Zv-zTq" eventType="touchUpInside" id="txw-2R-dZV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ko4-mM-ofv" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
+                                <rect key="frame" x="302" y="433" width="295" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Oy7-BP-Bin"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Technology">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="KmA-Zv-zTq" eventType="touchUpInside" id="lLM-WE-92y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhi-au-9wd" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
+                                <rect key="frame" x="302" y="390" width="295" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="f1d-wi-9Vx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="NFL">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="KmA-Zv-zTq" eventType="touchUpInside" id="qor-eu-yIX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QNn-7e-n1B" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
+                                <rect key="frame" x="302" y="347" width="295" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="BtT-D3-IQz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Music">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="KmA-Zv-zTq" eventType="touchUpInside" id="w8S-Zy-ctJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueD-we-suF" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
+                                <rect key="frame" x="3" y="304" width="296" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="1lo-6i-nGt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Comedy">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="KmA-Zv-zTq" eventType="touchUpInside" id="Mi7-Bb-Pq3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P8z-Xk-fJ5" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
+                                <rect key="frame" x="3" y="261" width="296" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="gxD-9d-BvS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Food">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="KmA-Zv-zTq" eventType="touchUpInside" id="s8X-7F-I1c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cfd-fJ-bzV" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
+                                <rect key="frame" x="3" y="218" width="296" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="8G5-Hv-3Fe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Science">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="KmA-Zv-zTq" eventType="touchUpInside" id="lhY-5v-ZeN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1j-NE-SW7" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
+                                <rect key="frame" x="302" y="304" width="295" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="T3q-R0-niF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="WLU">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="KmA-Zv-zTq" eventType="touchUpInside" id="Z4t-AT-eMs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4f-Tf-ti1" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
+                                <rect key="frame" x="302" y="261" width="295" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="YID-ew-JQn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="News">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="KmA-Zv-zTq" eventType="touchUpInside" id="auh-tb-ILH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aRA-xT-L74" customClass="buttonClass" customModule="quitSmoking" customModuleProvider="target">
+                                <rect key="frame" x="302" y="218" width="295" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="a1q-bK-a28"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Politics">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="KmA-Zv-zTq" eventType="touchUpInside" id="r8t-gb-VI1"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Your Interests" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RbQ-tE-wgu">
+                                <rect key="frame" x="-2" y="180" width="604" height="35"/>
+                                <color key="backgroundColor" red="0.64520202020202022" green="0.64520202020202022" blue="0.64520202020202022" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="P3b-3d-82m"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5l-zN-ohW" customClass="StartButton" customModule="quitSmoking" customModuleProvider="target">
+                                <rect key="frame" x="20" y="25" width="560" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="KB4-Pw-lQ6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="60"/>
+                                <state key="normal" title="START">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="66W-ha-8ta" kind="show" id="Vlb-I5-IOz"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.85456123737373735" green="0.6297731893529015" blue="0.4575308879800295" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="V5l-zN-ohW" firstAttribute="top" secondItem="5fM-K7-i17" secondAttribute="topMargin" constant="25" id="4JN-MV-uEj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="g1j-NE-SW7" secondAttribute="trailing" constant="-13" id="4Rc-fH-s9I"/>
+                            <constraint firstItem="Q5E-0C-yYW" firstAttribute="height" secondItem="QNn-7e-n1B" secondAttribute="height" id="695-Rx-UZH"/>
+                            <constraint firstItem="inc-Ys-emJ" firstAttribute="top" secondItem="ueD-we-suF" secondAttribute="bottom" constant="3" id="6BL-sy-LO1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aRA-xT-L74" secondAttribute="trailing" constant="-13" id="7yK-9U-Gei"/>
+                            <constraint firstItem="ueD-we-suF" firstAttribute="height" secondItem="g1j-NE-SW7" secondAttribute="height" id="8KJ-oM-pOJ"/>
+                            <constraint firstItem="inc-Ys-emJ" firstAttribute="leading" secondItem="5fM-K7-i17" secondAttribute="leadingMargin" constant="-13" id="8zB-qo-f6r"/>
+                            <constraint firstItem="Cfd-fJ-bzV" firstAttribute="top" secondItem="RbQ-tE-wgu" secondAttribute="bottom" constant="3" id="94n-p3-K9j"/>
+                            <constraint firstItem="Q5E-0C-yYW" firstAttribute="top" secondItem="bV7-a5-sgf" secondAttribute="bottom" constant="3" id="A5G-cX-TTd"/>
+                            <constraint firstItem="Q5E-0C-yYW" firstAttribute="height" secondItem="inc-Ys-emJ" secondAttribute="height" id="Alr-iE-qq3"/>
+                            <constraint firstItem="Q5E-0C-yYW" firstAttribute="leading" secondItem="5fM-K7-i17" secondAttribute="leadingMargin" constant="-13" id="BOk-nR-ZuO"/>
+                            <constraint firstItem="bV7-a5-sgf" firstAttribute="leading" secondItem="5fM-K7-i17" secondAttribute="leadingMargin" constant="-13" id="BWJ-3a-d8Q"/>
+                            <constraint firstItem="ueD-we-suF" firstAttribute="height" secondItem="Cfd-fJ-bzV" secondAttribute="height" id="C6d-cW-xPg"/>
+                            <constraint firstItem="ueD-we-suF" firstAttribute="top" secondItem="P8z-Xk-fJ5" secondAttribute="bottom" constant="3" id="Cnu-tt-ceN"/>
+                            <constraint firstItem="aRA-xT-L74" firstAttribute="top" secondItem="RbQ-tE-wgu" secondAttribute="bottom" constant="3" id="CsP-I9-xEK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="V5l-zN-ohW" secondAttribute="trailing" constant="4" id="Cy7-cd-7hX"/>
+                            <constraint firstItem="P8z-Xk-fJ5" firstAttribute="width" secondItem="l4f-Tf-ti1" secondAttribute="width" id="D0G-I5-VbK"/>
+                            <constraint firstItem="ueD-we-suF" firstAttribute="height" secondItem="l4f-Tf-ti1" secondAttribute="height" id="GkB-4I-dSm"/>
+                            <constraint firstItem="g1j-NE-SW7" firstAttribute="width" secondItem="ueD-we-suF" secondAttribute="width" id="Glh-he-ycs"/>
+                            <constraint firstItem="Q5E-0C-yYW" firstAttribute="height" secondItem="mhi-au-9wd" secondAttribute="height" id="Hqd-Rb-btB"/>
+                            <constraint firstItem="P8z-Xk-fJ5" firstAttribute="leading" secondItem="5fM-K7-i17" secondAttribute="leadingMargin" constant="-13" id="NMh-ls-CVQ"/>
+                            <constraint firstItem="l4f-Tf-ti1" firstAttribute="leading" secondItem="P8z-Xk-fJ5" secondAttribute="trailing" constant="3" id="O6H-x0-bbb"/>
+                            <constraint firstItem="ko4-mM-ofv" firstAttribute="top" secondItem="mhi-au-9wd" secondAttribute="bottom" constant="3" id="OUb-Nd-tIq"/>
+                            <constraint firstAttribute="centerX" secondItem="V5l-zN-ohW" secondAttribute="centerX" id="OWx-9f-zxW"/>
+                            <constraint firstItem="aRA-xT-L74" firstAttribute="leading" secondItem="Cfd-fJ-bzV" secondAttribute="trailing" constant="3" id="P1K-kS-8em"/>
+                            <constraint firstItem="g1j-NE-SW7" firstAttribute="top" secondItem="l4f-Tf-ti1" secondAttribute="bottom" constant="3" id="PCR-hi-iug"/>
+                            <constraint firstItem="Q5E-0C-yYW" firstAttribute="height" secondItem="bV7-a5-sgf" secondAttribute="height" id="RBF-E2-kWw"/>
+                            <constraint firstItem="ueD-we-suF" firstAttribute="height" secondItem="P8z-Xk-fJ5" secondAttribute="height" id="RYG-Yo-xxd"/>
+                            <constraint firstItem="P8z-Xk-fJ5" firstAttribute="top" secondItem="Cfd-fJ-bzV" secondAttribute="bottom" constant="3" id="WhV-c1-afW"/>
+                            <constraint firstItem="V5l-zN-ohW" firstAttribute="leading" secondItem="5fM-K7-i17" secondAttribute="leadingMargin" constant="4" id="WxD-KL-5T1"/>
+                            <constraint firstItem="RbQ-tE-wgu" firstAttribute="top" secondItem="V5l-zN-ohW" secondAttribute="bottom" constant="5" id="ZsF-Oo-d49"/>
+                            <constraint firstItem="RbQ-tE-wgu" firstAttribute="leading" secondItem="5fM-K7-i17" secondAttribute="leadingMargin" constant="-18" id="Zya-uS-W7l"/>
+                            <constraint firstItem="mhi-au-9wd" firstAttribute="top" secondItem="QNn-7e-n1B" secondAttribute="bottom" constant="3" id="cCE-t1-F2B"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ko4-mM-ofv" secondAttribute="trailing" constant="-13" id="cnM-W8-q9d"/>
+                            <constraint firstItem="QNn-7e-n1B" firstAttribute="leading" secondItem="inc-Ys-emJ" secondAttribute="trailing" constant="3" id="dU7-TN-nm0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mhi-au-9wd" secondAttribute="trailing" constant="-13" id="dVB-3A-JRD"/>
+                            <constraint firstItem="ko4-mM-ofv" firstAttribute="leading" secondItem="Q5E-0C-yYW" secondAttribute="trailing" constant="3" id="eJD-xb-Hs9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QNn-7e-n1B" secondAttribute="trailing" constant="-13" id="gmX-Eb-Edk"/>
+                            <constraint firstItem="QNn-7e-n1B" firstAttribute="top" secondItem="g1j-NE-SW7" secondAttribute="bottom" constant="3" id="h1M-ZN-EGZ"/>
+                            <constraint firstItem="Q5E-0C-yYW" firstAttribute="height" secondItem="ko4-mM-ofv" secondAttribute="height" id="h4I-IZ-jmE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RbQ-tE-wgu" secondAttribute="trailing" constant="-18" id="huZ-WE-1yd"/>
+                            <constraint firstItem="mhi-au-9wd" firstAttribute="leading" secondItem="bV7-a5-sgf" secondAttribute="trailing" constant="3" id="jnw-0u-nbJ"/>
+                            <constraint firstItem="bV7-a5-sgf" firstAttribute="width" secondItem="mhi-au-9wd" secondAttribute="width" id="kBH-1t-fzm"/>
+                            <constraint firstItem="bV7-a5-sgf" firstAttribute="top" secondItem="inc-Ys-emJ" secondAttribute="bottom" constant="3" id="l3G-za-CeY"/>
+                            <constraint firstItem="ueD-we-suF" firstAttribute="leading" secondItem="5fM-K7-i17" secondAttribute="leadingMargin" constant="-13" id="lbR-gJ-SLT"/>
+                            <constraint firstItem="ueD-we-suF" firstAttribute="height" secondItem="aRA-xT-L74" secondAttribute="height" id="lpk-bw-9qs"/>
+                            <constraint firstItem="QNn-7e-n1B" firstAttribute="width" secondItem="inc-Ys-emJ" secondAttribute="width" id="mld-IZ-QrE"/>
+                            <constraint firstItem="l4f-Tf-ti1" firstAttribute="top" secondItem="aRA-xT-L74" secondAttribute="bottom" constant="3" id="oJe-IO-udf"/>
+                            <constraint firstItem="ko4-mM-ofv" firstAttribute="width" secondItem="Q5E-0C-yYW" secondAttribute="width" id="pSo-SP-WiH"/>
+                            <constraint firstItem="g1j-NE-SW7" firstAttribute="leading" secondItem="ueD-we-suF" secondAttribute="trailing" constant="3" id="qKr-Mx-lVd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="l4f-Tf-ti1" secondAttribute="trailing" constant="-13" id="s5C-Ux-6ki"/>
+                            <constraint firstItem="aRA-xT-L74" firstAttribute="width" secondItem="Cfd-fJ-bzV" secondAttribute="width" id="tAi-yU-XKE"/>
+                            <constraint firstItem="Cfd-fJ-bzV" firstAttribute="leading" secondItem="5fM-K7-i17" secondAttribute="leadingMargin" constant="-13" id="w3t-cy-bsi"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="clock_44.png" id="viP-xd-M8K">
                         <inset key="imageInsets" minX="0.0" minY="4" maxX="0.0" maxY="-4"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="NHL_button" destination="inc-Ys-emJ" id="uK3-9e-JCb"/>
+                        <outlet property="title_Label" destination="RbQ-tE-wgu" id="Smv-kD-GMW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GdA-be-gYz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1100" y="1016"/>
+        </scene>
+        <!--Distraction View-->
+        <scene sceneID="Jzx-Nu-tdx">
+            <objects>
+                <viewController id="66W-ha-8ta" customClass="Distraction_View" customModule="quitSmoking" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EkP-nY-cFC"/>
+                        <viewControllerLayoutGuide type="bottom" id="GOB-qi-1Rl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5tN-eS-iXv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3nr-f5-ChG">
+                                <rect key="frame" x="277" y="50" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="3X5-Cs-58a" kind="showDetail" id="qfK-Ek-0kU"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="00Y-h3-CQv">
+                                <rect key="frame" x="0.0" y="111" width="600" height="440"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="00Y-h3-CQv" firstAttribute="top" secondItem="3nr-f5-ChG" secondAttribute="bottom" constant="31" id="7yV-2a-ife"/>
+                            <constraint firstAttribute="centerX" secondItem="3nr-f5-ChG" secondAttribute="centerX" id="Vfg-1t-reT"/>
+                            <constraint firstItem="3nr-f5-ChG" firstAttribute="top" secondItem="EkP-nY-cFC" secondAttribute="bottom" constant="30" id="WaW-TJ-hgV"/>
+                            <constraint firstItem="00Y-h3-CQv" firstAttribute="leading" secondItem="5tN-eS-iXv" secondAttribute="leadingMargin" constant="-16" id="dvi-DZ-6Xl"/>
+                            <constraint firstItem="GOB-qi-1Rl" firstAttribute="top" secondItem="00Y-h3-CQv" secondAttribute="bottom" id="eht-8k-Bds"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="00Y-h3-CQv" secondAttribute="trailing" constant="-16" id="gHT-d2-8w7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="00Y-h3-CQv" id="CWR-f7-NW5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oz3-G0-BfS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1105" y="1818"/>
         </scene>
         <!--Timer View Controller-->
         <scene sceneID="wc5-FX-kqZ">
@@ -121,8 +416,8 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JtE-cC-6G9" id="CEF-6f-5KI">
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Here is my description" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="vjQ-3S-5Jb">
-                                            <rect key="frame" x="311" y="0.0" width="281" height="44"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Here is my description" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="vjQ-3S-5Jb">
+                                            <rect key="frame" x="277" y="1" width="315" height="42"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="42" id="3fs-dz-rq2"/>
                                             </constraints>
@@ -137,8 +432,8 @@
                                                 <constraint firstAttribute="height" constant="50" id="s5I-Rl-tWJ"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Percent" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z2m-IC-tM6">
-                                            <rect key="frame" x="230" y="8" width="116" height="28"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Percent" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z2m-IC-tM6">
+                                            <rect key="frame" x="222" y="8" width="50" height="28"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="50" id="W0t-O6-9AM"/>
                                             </constraints>
@@ -264,7 +559,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ZMh-tV-aKj" firstAttribute="leading" secondItem="NVk-iA-A5X" secondAttribute="leadingMargin" constant="-16" id="CYf-bE-AU7"/>
-                            <constraint firstItem="ZMh-tV-aKj" firstAttribute="top" secondItem="NVk-iA-A5X" secondAttribute="topMargin" id="N5P-9A-aA3"/>
+                            <constraint firstItem="ZMh-tV-aKj" firstAttribute="top" secondItem="NVk-iA-A5X" secondAttribute="topMargin" id="baW-OW-gTy"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ZMh-tV-aKj" secondAttribute="trailing" constant="-16" id="fFG-TF-ngt"/>
                             <constraint firstItem="ZYP-p3-mqF" firstAttribute="top" secondItem="ZMh-tV-aKj" secondAttribute="bottom" id="gH4-bJ-Heh"/>
                         </constraints>

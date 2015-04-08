@@ -16,7 +16,7 @@ class Goals_TableViewController: UITableViewController, UITableViewDataSource {
         view.backgroundColor = UIColor.clearColor()
         var backgroundLayer = colours.gl
         backgroundLayer.frame = view.frame
-        backgroundLayer.frame.inset(dx: 0, dy: -50)
+        backgroundLayer.frame.inset(dx: 0, dy: -500)
         view.layer.insertSublayer(backgroundLayer, atIndex: 0)
     }
     
@@ -28,7 +28,7 @@ class Goals_TableViewController: UITableViewController, UITableViewDataSource {
         var goals = Goals();
         add_stats();
         //self.tableView.contentInset = UIEdgeInsetsMake(20.0, 0.0, 0.0, 0.0);
-        self.tableView.contentInset = UIEdgeInsetsMake(20.0, 0.0, 50.0, 0.0);
+        self.tableView.contentInset = UIEdgeInsetsMake(20.0, 0.0, 5.0, 0.0);
 
         
         
@@ -42,18 +42,7 @@ class Goals_TableViewController: UITableViewController, UITableViewDataSource {
     
     func add_stats(){
         
-        Goals.newGoal("Sense of smell", p: 100, s: 1)
-        Goals.newGoal("Sense of taste", p: 100, s: 1)
-        Goals.newGoal("Shortness of breath", p: 100, s: 1)
-        Goals.newGoal("Another Thing", p: 100, s: 1)
-        
-        Goals.newGoal("Lung capacity", p: 96, s: 0)
-        Goals.newGoal("Heart Attack", p: 72, s: 0)
-        Goals.newGoal("health", p: 70, s: 0)
-        Goals.newGoal("more things", p: 39, s: 0)
-        Goals.newGoal("here", p: 3, s: 0)
-        Goals.newGoal("cancer stuff", p: 2, s: 0)
-        Goals.newGoal("money stuff", p: 7, s: 0)
+
         
         
         
