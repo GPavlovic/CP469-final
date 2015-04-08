@@ -12,6 +12,7 @@
 		5F9262D61ABB68FF005B9021 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9262D51ABB68FF005B9021 /* Images.xcassets */; };
 		5F9262D91ABB68FF005B9021 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F9262D71ABB68FF005B9021 /* LaunchScreen.xib */; };
 		5F9262E51ABB68FF005B9021 /* quitSmokingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9262E41ABB68FF005B9021 /* quitSmokingTests.swift */; };
+		F810255F1AD5421200ABBE53 /* New_Parsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F810255E1AD5421200ABBE53 /* New_Parsers.swift */; };
 		F8AA63DB1AD30F3D00252CF7 /* gear_44.png in Resources */ = {isa = PBXBuildFile; fileRef = F8AA63DA1AD30F3D00252CF7 /* gear_44.png */; };
 		F8AA63E11AD324A100252CF7 /* Goals_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AA63E01AD324A100252CF7 /* Goals_TableViewController.swift */; };
 		F8DF3B3C1AD462A4005CFD3B /* Progress_0_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F8DF3B271AD462A4005CFD3B /* Progress_0_2.png */; };
@@ -73,6 +74,7 @@
 		5F9262DE1ABB68FF005B9021 /* quitSmokingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quitSmokingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9262E31ABB68FF005B9021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F9262E41ABB68FF005B9021 /* quitSmokingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quitSmokingTests.swift; sourceTree = "<group>"; };
+		F810255E1AD5421200ABBE53 /* New_Parsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = New_Parsers.swift; sourceTree = "<group>"; };
 		F8AA63DA1AD30F3D00252CF7 /* gear_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear_44.png; sourceTree = "<group>"; };
 		F8AA63E01AD324A100252CF7 /* Goals_TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goals_TableViewController.swift; sourceTree = "<group>"; };
 		F8DF3B271AD462A4005CFD3B /* Progress_0_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Progress_0_2.png; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 				F8DF3B631AD50B2E005CFD3B /* buttonClass.swift */,
 				F8DF3B651AD51847005CFD3B /* StartButton.swift */,
 				F8DF3B671AD51F9B005CFD3B /* Distraction_View.swift */,
+				F810255E1AD5421200ABBE53 /* New_Parsers.swift */,
 			);
 			path = quitSmoking;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 				F8DF3B5A1AD4C594005CFD3B /* Timer_ViewController.swift in Sources */,
 				F8DF3B5E1AD4CDC3005CFD3B /* Craving_Controller.swift in Sources */,
 				F8E501541AD35AEF00B57CF3 /* Stat.swift in Sources */,
+				F810255F1AD5421200ABBE53 /* New_Parsers.swift in Sources */,
 				5F9262CF1ABB68FF005B9021 /* AppDelegate.swift in Sources */,
 				F8E501521AD35AD600B57CF3 /* Goals.swift in Sources */,
 			);

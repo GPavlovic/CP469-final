@@ -9,6 +9,8 @@ import UIKit
 struct Goals{
     //static var max_goals = [0,0,0]; dont need, just use count
     static var open = [true,true]
+    
+    static var links: [String] = []
     static var completed_goals = [Stat]()
     static var current_goals = [Stat]()
     static var hidden_goals = [Stat]()
@@ -30,7 +32,22 @@ struct Goals{
     }*/
     
 
-    
+    static func addLink(u:String){
+        
+        links.append(u)
+        
+    }
+    static func getLink()->String{
+        var link = ""
+        println("NO LINK");
+        if(links.count > 0){
+            println("LINK")
+            var i = Int(arc4random_uniform(UInt32(links.count)))
+            link = links[i]
+            links.removeAtIndex(i)
+        }
+        return link
+    }
     static func addInterest(s:String){
         interests.append(s)
     }
@@ -42,6 +59,19 @@ struct Goals{
             i++
         }
         interests.removeAtIndex(i)
+    }
+    
+    static func checkInterest(s: String)->Bool{
+        
+        for(var i = 0; i < interests.count;i++){
+            if(interests[i] == s){
+                return true
+                
+            }
+            
+        }
+        return false
+        
     }
     
     
