@@ -9,6 +9,7 @@ import UIKit
 
 struct Goals{
     static var max_goals = [0,0,0];
+    static var open = [true,true]
     static var completed_goals = [Stat]()
     static var current_goals = [Stat]()
     static var hidden_goals = [Stat]()
@@ -58,7 +59,20 @@ struct Goals{
         
     }
     
-    
+    static func changeOpen(i: Int){
+        
+        if(open[i] == true){
+            open[i] = false
+        }
+        else{
+            open[i] = true
+        }
+        
+    }
+    static func checkOpen(i : Int)->Bool{
+        
+        return open[i]
+    }
     
     static func getGoal(s:Int,r: Int)->Stat{
         
