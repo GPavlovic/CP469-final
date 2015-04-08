@@ -87,12 +87,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GdA-be-gYz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1083" y="972"/>
+            <point key="canvasLocation" x="1100" y="1023"/>
         </scene>
-        <!--View Controller-->
+        <!--Craving View Controller-->
         <scene sceneID="wc5-FX-kqZ">
             <objects>
-                <viewController id="hRP-Ch-mKS" sceneMemberID="viewController">
+                <viewController id="hRP-Ch-mKS" customClass="Craving_ViewController" customModule="quitSmoking" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RGl-dP-Wj2"/>
                         <viewControllerLayoutGuide type="bottom" id="L5e-UN-bFE"/>
@@ -162,8 +162,8 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="hRP-Ch-mKS" kind="relationship" relationship="viewControllers" id="zOi-bU-SFI"/>
                         <segue destination="KmA-Zv-zTq" kind="relationship" relationship="viewControllers" id="orc-sX-TuV"/>
+                        <segue destination="hRP-Ch-mKS" kind="relationship" relationship="viewControllers" id="zOi-bU-SFI"/>
                         <segue destination="Crh-iY-Pq7" kind="relationship" relationship="viewControllers" id="a1B-Ja-Xoc"/>
                     </connections>
                 </tabBarController>
