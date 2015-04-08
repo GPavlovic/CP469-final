@@ -19,7 +19,18 @@ struct Goals{
     
     
     
-    static var interest_feeds = ["NHL":"http://www.nhl.com/rss/news.xml","World News":"http://america.aljazeera.com/content/ajam/articles.rss", "Politics":"http://rss.cbc.ca/lineup/politics.xml"]
+    static var interest_feeds = ["NHL":"http://www.nhl.com/rss/news.xml",
+        "World News":"http://america.aljazeera.com/content/ajam/articles.rss", "Politics":"http://rss.cbc.ca/lineup/politics.xml",
+    "NFL":"http://www.nfl.com/rss/rsslanding?searchString=home",
+    "Movies":"http://feeds.feedburner.com/thr/reviews/film",
+        "Cars":"http://feeds.feedburner.com/TheCarConnection",
+        "Technology":"http://feeds.feedburner.com/TechCrunch/",
+        "Music":"http://www.rollingstone.com/music.rss",
+        "Fitness":"http://www.bodybuilding.com/rss/articles/training",
+        "Food":"http://rss.allrecipes.com/daily.aspx?hubID=80",
+        "Science":"http://rss.sciam.com/ScientificAmerican-News",
+        "Comedy":"http://feeds.theonion.com/theonion/daily"
+    ]
     
     
     //init function
